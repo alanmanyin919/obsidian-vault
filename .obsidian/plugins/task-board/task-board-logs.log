@@ -1,0 +1,72 @@
+# Task Board Logs
+
+## System Information
+
+- **Obsidian version**: 1.12.4
+- **Installer version**: 1.12.4
+- **Operating system**: Darwin Kernel Version 25.3.0: Wed Jan 28 20:56:35 PST 2026; root:xnu-12377.91.3~2/RELEASE_ARM64_T6030 25.3.0
+- **Use [[Wikilinks]]**: true
+- **Base color scheme**: light
+- **Community theme**: none
+- **Snippets enabled**: 0
+- **Plugins installed**: 3
+- **Plugins enabled**: 
+  - GitHub Sync v1.0.6
+  - Task Board v1.9.7
+  - Calendar v1.5.10
+
+## Recent Bug Reports
+
+Timestamp : 2026-03-11T13:59:00
+ID : 145
+Message : 
+Context : undefined
+Version : 1.9.7
+
+#### Bug Content
+```log
+No need to worry if this is appearing on the fresh install.
+Error: ENOENT: no such file or directory, open '/Users/alan.man/Documents/Obsidian Vault/.obsidian/plugins/task-board/tasks.json'
+```
+
+-------------
+
+Timestamp : 2026-03-11T13:59:12
+ID : 131
+Message : 
+Context : undefined
+Version : 1.9.7
+
+#### Bug Content
+```log
+No need to worry about this bug, if its appearing on the fresh install.
+Error: ENOENT: no such file or directory, open '/Users/alan.man/Documents/Obsidian Vault/.obsidian/plugins/task-board/tasks.json'
+```
+
+-------------
+
+Timestamp : 2026-03-11T13:59:25
+ID : 145
+Message : 
+Context : undefined
+Version : 1.9.7
+
+#### Bug Content
+```log
+No need to worry if this is appearing on the fresh install.
+Error: ENOENT: no such file or directory, open '/Users/alan.man/Documents/Obsidian Vault/.obsidian/plugins/task-board/tasks.json'
+```
+
+-------------
+
+Timestamp : 2026-03-11T13:59:39
+ID : 131
+Message : 
+Context : TaskBoardViewContent.tsx/loading boards and tasks useEffect
+Version : 1.9.7
+
+#### Bug Content
+```log
+No need to worry about this bug, if its appearing on the fresh install.
+Error: ENOENT: no such file or directory, open '/Users/alan.man/Documents/Obsidian Vault/.obsidian/plugins/task-board/tasks.json'
+```
