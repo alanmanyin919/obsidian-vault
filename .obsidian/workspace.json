@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "oversea-pr-research/01-core/01-fit-comparison.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "01-fit-comparison"
             }
           }
         ]
@@ -171,8 +171,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -197,9 +197,43 @@
   },
   "active": "941a7b3f08693ca4",
   "lastOpenFiles": [
-    "2026-03-11.md",
-    "Welcome.md",
-    "Untitled.md",
-    "Untitled.base"
+    "oversea-pr-research/01-core/01-documents/confidentials/Resume.pdf",
+    "oversea-pr-research/01-core/01-documents/confidentials/Resume-HK copy.pdf",
+    "life-learning/first-principles/raw-articles-huanusa.md",
+    "life-learning/first-principles/analyzed-articles.md",
+    "life-learning/first-principles/raw-articles-huanusa",
+    "life-learning/first-principles/raw-articles-",
+    "life-learning/first-principles",
+    "life-learning",
+    "career-development/eastech/hsh/mercury/workshop-pmn-2-20260420",
+    "career-development/eastech/hsh/mercury/workshop-20260420",
+    "career-development/eastech/hsh/mercury",
+    "career-development/eastech/hsh",
+    "career-development/eastech",
+    "oversea-pr-research/CLAUDE.md",
+    "oversea-pr-research/claude-code-local-rules.md",
+    "oversea-pr-research/04-job-application-bank/har-par-investments-web-developer-edmonton-2026-04-19/cover-letter.md",
+    "oversea-pr-research/04-job-application-bank/mindfuel-program-developer-calgary-2026-04-19/cover-letter.md",
+    "oversea-pr-research/04-job-application-bank/samdesk-intermediate-frontend-feature-developer-edmonton-2026-04-19/cover-letter.md",
+    "oversea-pr-research/04-job-application-bank/frontech-solutions-junior-enterprise-database-software-engineer-edmonton-2026-04-19/cover-letter.md",
+    "oversea-pr-research/04-job-application-bank/kreate-systems-web-developer-innisfail-2026-04-19/cover-letter.md",
+    "oversea-pr-research/04-job-application-bank/kreate-systems-software-developer-innisfail-2026-04-19/cover-letter.md",
+    "oversea-pr-research/04-job-application-bank/har-par-investments-web-developer-edmonton-2026-04-19/resume-revision-advice.md",
+    "oversea-pr-research/04-job-application-bank/har-par-investments-web-developer-edmonton-2026-04-19/job-fit-score.md",
+    "oversea-pr-research/04-job-application-bank/har-par-investments-web-developer-edmonton-2026-04-19/job-post-overview.md",
+    "oversea-pr-research/04-job-application-bank/har-par-investments-web-developer-edmonton-2026-04-19/job-description.md",
+    "oversea-pr-research/04-job-application-bank/mindfuel-program-developer-calgary-2026-04-19/resume-revision-advice.md",
+    "oversea-pr-research/04-job-application-bank/mindfuel-program-developer-calgary-2026-04-19/job-fit-score.md",
+    "oversea-pr-research/04-job-application-bank/mindfuel-program-developer-calgary-2026-04-19/job-post-overview.md",
+    "oversea-pr-research/04-job-application-bank/mindfuel-program-developer-calgary-2026-04-19/job-description.md",
+    "oversea-pr-research/04-job-application-bank/samdesk-intermediate-frontend-feature-developer-edmonton-2026-04-19/resume-revision-advice.md",
+    "oversea-pr-research/04-job-application-bank/samdesk-intermediate-frontend-feature-developer-edmonton-2026-04-19/job-fit-score.md",
+    "oversea-pr-research/04-job-application-bank/samdesk-intermediate-frontend-feature-developer-edmonton-2026-04-19/job-post-overview.md",
+    "oversea-pr-research/04-job-application-bank/samdesk-intermediate-frontend-feature-developer-edmonton-2026-04-19/job-description.md",
+    "oversea-pr-research/04-job-application-bank/frontech-solutions-junior-enterprise-database-software-engineer-edmonton-2026-04-19/resume-revision-advice.md",
+    "oversea-pr-research/04-job-application-bank/frontech-solutions-junior-enterprise-database-software-engineer-edmonton-2026-04-19/job-fit-score.md",
+    "oversea-pr-research/04-job-application-bank/frontech-solutions-junior-enterprise-database-software-engineer-edmonton-2026-04-19/job-post-overview.md",
+    "oversea-pr-research/01-core/01-documents/confidentials/page-01.png",
+    "oversea-pr-research/01-core/01-documents/confidentials/page-02.png"
   ]
 }

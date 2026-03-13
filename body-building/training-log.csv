@@ -1,0 +1,121 @@
+date,bodypart,exercise,weight,reps,sets,notes
+2026-03-30,Shoulder,Overhead Press,14,10,1,
+2026-03-30,Shoulder,Overhead Press,23,10,1,
+2026-03-30,Shoulder,Overhead Press,32,10,1,
+2026-03-30,Shoulder,Overhead Press,41,9,1,
+2026-03-30,Shoulder,Lateral Raise,7,10,1,low quality noted
+2026-04-02,Abs,Leg Raise,bodyweight,12,4,
+2026-04-02,Chest,Chest Press,35,8,4,
+2026-04-02,Shoulder,Overhead Press,23,12,5,
+2026-04-02,Chest,Butterfly Fly,22.5,10,2,
+2026-04-02,Shoulder,Face Pull,6.8,10,3,
+2026-04-02,Back,Row Pulldown,6.8,10,3,
+2026-04-03,Shoulder,Overhead Press,23,10,1,
+2026-04-03,Shoulder,Overhead Press,32,10,1,
+2026-04-03,Shoulder,Overhead Press,41,8,1,
+2026-04-03,Chest,Chest Press,35,11,1,
+2026-04-03,Chest,Chest Press,40,9,1,
+2026-04-03,Chest,Chest Press,40,7,1,
+2026-04-03,Chest,Chest Press,30,10,2,
+2026-04-03,Chest,Butterfly Fly,13.5,10,2,
+2026-04-03,Chest,Butterfly Fly,22.5,10,2,
+2026-04-13,Chest,Chest Press,45,12,2,
+2026-04-13,Chest,Chest Press,55,7,1,
+2026-04-13,Chest,Chest Press,55,4,1,
+2026-04-13,Chest,Incline Press,40,9,1,
+2026-04-13,Chest,Incline Press,40,6,1,
+2026-04-13,Chest,Incline Machine Press,32,10,1,
+2026-04-13,Chest,Incline Machine Press,23,10,1,
+2026-04-13,Biceps,Curl,11.3,10,1,
+2026-04-13,Biceps,Curl,13.6,10,1,
+2026-04-13,Biceps,Curl,15.9,8,1,
+2026-04-13,Biceps,Curl,13.6,8,1,
+2026-04-13,Biceps,Curl,11.3,10,1,
+2026-04-13,Shoulder,Lateral Raise,10,10,5,
+2026-04-14,Back,Assisted Pull / Pulldown,40.5,12,1,
+2026-04-14,Back,Assisted Pull / Pulldown,36.5,12,1,
+2026-04-14,Back,Assisted Pull / Pulldown,32.5,8,1,
+2026-04-14,Back,Assisted Pull / Pulldown,28.5,8,1,
+2026-04-14,Back,Single Arm Row,6.8,20,1,right
+2026-04-14,Back,Single Arm Row,6.8,35,1,left
+2026-04-14,Back,Single Arm Row,11.3,12,1,right
+2026-04-14,Back,Single Arm Row,11.3,21,1,left 13+8
+2026-04-14,Back,Single Arm Pulldown,6.8,12,1,
+2026-04-14,Back,Single Arm Pulldown,9.1,12,2,
+2026-04-14,Shoulder,Overhead Press,32,10,1,
+2026-04-14,Shoulder,Overhead Press,41,10,1,
+2026-04-14,Shoulder,Overhead Press,50,10,1,
+2026-04-14,Shoulder,Overhead Press,50,8,1,
+2026-04-16,Legs,Leg Press,13.5,12,1,
+2026-04-16,Legs,Leg Press,22.5,12,1,
+2026-04-16,Legs,Leg Press,31.5,12,1,
+2026-04-16,Legs,Leg Press,40.5,12,1,
+2026-04-16,Legs,Leg Press,49.5,12,1,
+2026-04-16,Legs,Leg Extension,22.5,12,1,
+2026-04-16,Legs,Leg Extension,31.5,10,1,
+2026-04-16,Legs,Leg Extension,40.5,10,2,
+2026-04-16,Legs,Leg Extension,40.5,8,1,
+2026-04-16,Back,Seated Row,13.5,10,3,
+2026-04-16,Rear Delt,Face Pull,4.5,10,2,
+2026-04-16,Rear Delt,Face Pull,6.8,12,2,
+2026-04-17,Chest,Chest Press,32+15,10,1,
+2026-04-17,Chest,Chest Press,41+15,10,1,
+2026-04-17,Chest,Chest Press,50+10,10,1,
+2026-04-18,Chest,Chest Press,40,12,1,
+2026-04-18,Chest,Chest Press,50,12,1,
+2026-04-18,Chest,Chest Press,55,9,1,
+2026-04-18,Chest,Chest Press,55,6,1,
+2026-04-18,Chest,Incline Press,40,10,1,
+2026-04-18,Chest,Incline Press,40,6,1,
+2026-04-18,Shoulder,Overhead Press,30,11,1,
+2026-04-18,Shoulder,Overhead Press,30,11,1,7+4 rest-pause
+2026-04-18,Shoulder,Lateral Raise,6,12,3,
+2026-04-18,Abs,Leg Raise,,12,1,
+2026-04-18,Abs,Leg Raise,,11,1,
+2026-04-18,Abs,Leg Raise,,10,1,
+2026-04-18,Abs,Leg Raise,,8,1,
+2026-04-24,Push,Chest Supported Rear Delt Raise,10,10,1,Activation
+2026-04-24,Push,Face Pull,4.6,10,1,Rear delt/scapular
+2026-04-24,Push,Face Pull,6.8,10,3,Rear delt/scapular
+2026-04-24,Push,Incline Chest Press,50,10,1,Main work
+2026-04-24,Push,Incline Chest Press,50,7,1,Main work
+2026-04-24,Push,Incline Chest Press,45,10,1,Main work
+2026-04-24,Push,Incline Chest Press,45,11,1,Main work
+2026-04-24,Push,Flat Chest Press,45,10,1,Main work
+2026-04-24,Push,Flat Chest Press,50,8,1,Main work
+2026-04-24,Push,Flat Chest Press,50,6,1,Main work
+2026-04-24,Push,Chest Press,50,10,1,PR highlight
+2026-04-24,Push,Chest Press,59,10,1,PR highlight
+2026-04-24,Push,Roman Chair,,45,2,Posterior chain; source logged as 45 x2 sets
+2026-04-25,Pull,Assisted Scapular Pull-up,48.5,10,1,Activation
+2026-04-25,Pull,Assisted Scapular Pull-up,44.5,10,1,Activation
+2026-04-25,Pull,Scapular Pull-up,bodyweight,8,3,Activation
+2026-04-25,Pull,Chest Supported Row,30,10,3,PR highlight
+2026-04-25,Pull,Chest Supported Row,35,10,1,PR highlight
+2026-04-25,Pull,Chest Supported Row,40,12,1,PR highlight
+2026-04-25,Pull,Chest Supported Row,45,8,1,PR highlight
+2026-04-25,Pull,Chest Supported Row,50,10,1,PR highlight
+2026-04-25,Pull,Single Arm Seated Row,20.4,9,1,Unilateral control; right
+2026-04-25,Pull,Single Arm Seated Row,20.4,10,1,Unilateral control; left
+2026-04-25,Pull,Single Arm Seated Row,13.6,,1,Unilateral control; correction
+2026-04-25,Pull,Single Arm Pulldown,13.6,10,1,Pattern work
+2026-04-25,Pull,Single Arm Pulldown,15.9,10,1,Pattern work
+2026-04-25,Pull,Single Arm Pulldown,18.1,10,1,Pattern work
+2026-04-25,Pull,Single Arm Pulldown,9.1,,1,Pattern work; correction
+2026-04-25,Pull,Lateral Raise,10,10,3,Finisher
+2026-04-26,Legs,Leg Extension,40.5,10,1,Major PR
+2026-04-26,Legs,Leg Extension,49.5,10,1,Major PR
+2026-04-26,Legs,Leg Extension,58.5,10,1,Major PR
+2026-04-26,Legs,Leg Extension,67.5,10,1,Major PR
+2026-04-26,Push Bonus,Chest Press,50,10,1,Bonus work
+2026-04-26,Push Bonus,Chest Press,55,7,1,Bonus work
+2026-04-26,Push Bonus,Chest Press,45,9,1,Bonus work
+2026-04-26,Push Bonus,Chest Press,45,7,1,Bonus work
+2026-04-26,Core,Leg Raise,,10,1,85 total reps
+2026-04-26,Core,Leg Raise,,14,1,85 total reps
+2026-04-26,Core,Leg Raise,,12,1,85 total reps
+2026-04-26,Core,Leg Raise,,10,1,85 total reps
+2026-04-26,Core,Leg Raise,,10,1,85 total reps
+2026-04-26,Core,Leg Raise,,10,1,85 total reps
+2026-04-26,Core,Leg Raise,,11,1,85 total reps
+2026-04-26,Core,Leg Raise,,8,1,85 total reps
