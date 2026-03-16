@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e15000702a281416",
+        "id": "3938b8a5047f87e3",
         "type": "tabs",
         "children": [
           {
-            "id": "a93e022137ae6484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "674a7b7b4e106e4c",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "obsidian-vault/Testing.md",
-                "bFile": "obsidian-vault/Testing.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Testing  (Index)"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "ec5afbccb02d8dd4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5f24d5be6757f072",
+            "id": "4a8191927082a778",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -223,9 +187,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "674a7b7b4e106e4c",
+  "active": "4a8191927082a778",
   "lastOpenFiles": [
+    "2026-03-16.md",
     "Helloworld.md",
-    "Welcome.md"
+    "Untitled.base",
+    "Untitled.canvas",
+    "Welcome.md",
+    "Untitled 1.base"
   ]
 }
