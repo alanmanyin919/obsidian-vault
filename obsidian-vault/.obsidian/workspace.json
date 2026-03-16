@@ -4,53 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e15000702a281416",
+        "id": "3938b8a5047f87e3",
         "type": "tabs",
         "children": [
           {
-            "id": "a93e022137ae6484",
+            "id": "4a8191927082a778",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Helloworld.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "674a7b7b4e106e4c",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "obsidian-vault/Testing.md",
-                "bFile": "obsidian-vault/Testing.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Testing  (Index)"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "ec5afbccb02d8dd4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5f24d5be6757f072",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Helloworld"
             }
           }
         ]
@@ -126,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Helloworld.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Helloworld"
             }
           },
           {
@@ -144,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Helloworld.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Helloworld"
             }
           },
           {
@@ -223,9 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "674a7b7b4e106e4c",
+  "active": "4a8191927082a778",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled.canvas",
+    "2026-03-16.md",
     "Helloworld.md",
-    "Welcome.md"
+    "Welcome.md",
+    "Untitled 1.base"
   ]
 }
