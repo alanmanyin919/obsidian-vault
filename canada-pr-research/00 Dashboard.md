@@ -49,6 +49,11 @@ See [[Canada-PR-Research/01 Core/02 Should I Try Canada?]], [[Canada-PR-Research
   - [[Canada-PR-Research/04 Job Paths/Junior Developer]]
   - [[Canada-PR-Research/04 Job Paths/Application Support]]
   - [[Canada-PR-Research/04 Job Paths/Operations Support]]
+- Resume Work
+  - [[canada-pr-research/07-resume/00-resume-revision-dashboard]]
+  - [[canada-pr-research/07-resume/01-resume-source/readme]]
+  - [[canada-pr-research/07-resume/02-cv-investigation/canada-resume-expectations]]
+  - [[canada-pr-research/07-resume/03-revision-notes/proposed-resume-improvements]]
 - Province Notes
   - [[Canada-PR-Research/02 Provinces/Alberta]]
   - [[Canada-PR-Research/02 Provinces/Manitoba]]
@@ -72,6 +77,7 @@ See [[Canada-PR-Research/01 Core/02 Should I Try Canada?]], [[Canada-PR-Research
   - [[Canada-PR-Research/06 Templates/Pathway Research Template]]
   - [[Canada-PR-Research/06 Templates/Job Research Template]]
   - [[Canada-PR-Research/06 Templates/Decision Review Template]]
+  - [[canada-pr-research/06 Templates/resume-review-template]]
 
 ## Immediate Next Steps
 - [ ] Review [[Canada-PR-Research/01 Core/01 Personal Profile]] and correct any inaccurate assumptions
@@ -79,6 +85,9 @@ See [[Canada-PR-Research/01 Core/02 Should I Try Canada?]], [[Canada-PR-Research
 - [ ] Estimate Canada trial budget in [[Canada-PR-Research/05 Planning/02 Financial Planning]]
 - [ ] Do first-pass scoring in [[Canada-PR-Research/01 Core/04 Province Comparison]]
 - [ ] Pick 2-3 job paths to research first in [[Canada-PR-Research/04 Job Paths/01 Job Paths Overview]]
+- [ ] Put the latest current resume into [[canada-pr-research/07-resume/01-resume-source/readme]]
+- [ ] Review [[canada-pr-research/07-resume/02-cv-investigation/canada-resume-expectations]] before editing
+- [ ] Turn the suggestions in [[canada-pr-research/07-resume/03-revision-notes/proposed-resume-improvements]] into a revised draft
 - [ ] Start a reality check in [[Canada-PR-Research/01 Core/02 Should I Try Canada?]]
 
 ## Open Questions
