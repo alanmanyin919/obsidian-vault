@@ -4,13 +4,16 @@
 This section is a focused study area for Azure Administrator (`AZ-104`) preparation inside the vault.
 
 ## Notes
-- [[AZ-104 Study Plan]]
-- [[AZ-104 Identity, Governance, and Access]]
-- [[AZ-104 Storage]]
-- [[AZ-104 Compute, VMs, and Containers]]
-- [[AZ-104 Virtual Networking]]
-- [[AZ-104 Monitoring, Backup, and Recovery]]
-- [[AZ-104 Lab Checklist]]
+- [[Overview/AZ-104 Study Plan]]
+- [[Overview/AZ-104 Personal Coaching Plan]]
+- [[Overview/AZ-104 Daily Study Routine]]
+- [[Overview/AZ-104 Session Template]]
+- [[Identity & Access/AZ-104 Identity, Governance, and Access]]
+- [[Storage/AZ-104 Storage]]
+- [[Compute/AZ-104 Compute, VMs, and Containers]]
+- [[Networking/AZ-104 Virtual Networking]]
+- [[Monitoring & Recovery/AZ-104 Monitoring, Backup, and Recovery]]
+- [[Labs/AZ-104 Lab Checklist]]
 
 ## Study Approach
 1. Read one topic note at a time.
