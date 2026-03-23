@@ -24,7 +24,7 @@ This area is for preparing a Canada-targeted resume workflow: storing the curren
 - You need a practical Canada job-search resume, not an academic CV.
 - The first target should be a broad, adaptable base resume rather than many separate versions at once.
 - Communication strength on paper should be improved by clearer writing, tighter bullets, and stronger evidence of outcomes.
-- Resume direction should stay aligned with the job paths already tracked in [[Canada-PR-Research/04 Job Paths/01 Job Paths Overview]].
+- Resume direction should stay aligned with the job paths already tracked in [[canada-pr-research/04-job-paths/01-job-paths-overview]].
 
 ## Immediate Next Steps
 - [ ] Add the latest current resume file into the `01 Resume Source` folder
