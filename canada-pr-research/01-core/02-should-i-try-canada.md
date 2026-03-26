@@ -51,7 +51,7 @@ This note is for rational evaluation of whether pursuing Canada is a good idea u
 See [[canada-pr-research/05-planning/03-mental-health-and-sustainability]].
 
 ## Financial Runway
-- Current base estimate: around HKD 600,000
+- Total assets may be around HKD 600,000, but a safer planning assumption is that only around HKD 200,000 may be available for a Canada move or trial
 - Unknowns:
   - CAD conversion rate to use for planning
   - Canada settlement burn rate by province

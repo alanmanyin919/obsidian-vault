@@ -4,12 +4,13 @@
 This note tracks financial runway, budget assumptions, and stop-loss planning for any Canada strategy.
 
 ## Current Baseline
-- Current savings/assets: around HKD 600,000
+- Total assets/savings may be around HKD 600,000
+- Conservative deployable-budget assumption for Canada planning: around HKD 200,000
 - CAD conversion assumption: `To Research`
 - Planning principle: protect capital, avoid drift, define loss limits
 
 ## Conversion
-- HKD 600,000 -> CAD estimate:
+- HKD 200,000 -> CAD estimate for planning:
   - `To Research`
 - Use a conservative exchange-rate assumption:
   - `To Research`
@@ -66,7 +67,7 @@ This note tracks financial runway, budget assumptions, and stop-loss planning fo
 
 ## Budget Cap For A Canada Trial
 - Trial budget cap:
-  - To Research
+  - Should be based on the deployable-budget assumption, not total assets
 - Conditions for using it:
   - Clear learning goals
   - Timeline

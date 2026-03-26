@@ -5,10 +5,10 @@ This workspace is the main decision-support area for Canada permanent residence 
 
 ## Current Situation Summary
 - Hong Kong user, age 32
-- Valid Canada Open Work Permit (OWP)
+- Valid Canada Open Work Permit (OWP), issued on 2026-01-28 and expiring on 2029-01-27
 - Previously visited Canada from 2026-01-28 to 2026-02-04
 - Progress has been limited since returning to Hong Kong
-- Current assets/savings are around HKD 600,000
+- Total assets/savings may be around HKD 600,000, but only around HKD 200,000 may be realistically available for a Canada plan
 - No strong local network in Canada
 - English communication is a constraint, especially speaking and general workplace communication
 - Mental health is a serious planning factor and must be treated as part of the decision, not as a side issue
@@ -29,7 +29,7 @@ See [[canada-pr-research/01-core/02-should-i-try-canada]], [[canada-pr-research/
 - Weaker English for spoken/workplace communication
 - Need for low-chaos planning
 - Mental health risk under uncertainty and isolation
-- Need to protect capital rather than drift into expensive trial-and-error
+- Need to protect limited deployable capital rather than drift into expensive trial-and-error
 
 ## Quick Links
 - Core
@@ -93,7 +93,7 @@ See [[canada-pr-research/01-core/02-should-i-try-canada]], [[canada-pr-research/
 - [ ] Start a reality check in [[canada-pr-research/01-core/02-should-i-try-canada]]
 
 ## Open Questions
-- What is the exact OWP validity period and latest practical entry timeline?
+- What is the latest practical entry timeline within the OWP window ending on 2029-01-27?
 - Which provinces are realistic for someone without a strong network?
 - Which job paths are viable despite weaker spoken English?
 - How much financial runway is acceptable for a Canada trial?

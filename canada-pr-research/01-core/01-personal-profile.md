@@ -6,9 +6,9 @@ This note is the factual baseline for Canada planning. It should stay practical,
 ## Snapshot
 - Age: 32
 - Current location: Hong Kong
-- Canada status: Valid Open Work Permit (OWP)
+- Canada status: Valid Open Work Permit (OWP), issued on 2026-01-28 and expiring on 2029-01-27
 - Canada travel history: Visited Canada from 2026-01-28 to 2026-02-04, then returned to Hong Kong
-- Savings/assets: Around HKD 600,000
+- Total assets/savings may be around HKD 600,000, but only around HKD 200,000 may be realistically available for Canada planning or relocation
 - Canada network: No strong local network or connections
 - English: Reading/writing may be workable; speaking and general workplace communication are weaker
 - Mental health: Depression is a relevant constraint for migration, job search, and adaptation
@@ -24,11 +24,11 @@ This note is the factual baseline for Canada planning. It should stay practical,
 - Communication weakness may affect interviews, work performance, and social adaptation
 - Mental energy may be inconsistent
 - Need for structured, low-chaos planning
-- Need to protect savings and avoid uncontrolled drift
+- Need to protect limited deployable capital and avoid uncontrolled drift
 
 ## Strengths
 - Already holds OWP
-- Has some savings buffer
+- Still has some financial buffer, but the amount that can be used for Canada may be much smaller than total assets
 - Has already visited Canada once, so the idea is not purely abstract
 - Can still research before making high-cost commitments
 
@@ -40,7 +40,7 @@ This note is the factual baseline for Canada planning. It should stay practical,
 - Recent planning momentum has been low
 
 ## Unknowns
-- Exact OWP expiry and usage window
+- Practical OWP usage window and latest rational move timing
 - Current employability in realistic Canada job segments
 - Province fit
 - Practical PR routes after arrival
