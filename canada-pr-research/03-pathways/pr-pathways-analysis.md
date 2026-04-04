@@ -1,7 +1,7 @@
 # PR Pathways Research - Conservative Working Version
 
 ## Research Date
-- 2026-03-26
+- 2026-04-04
 
 ## Purpose
 This note is a conservative pathway summary for decision support. It should avoid rankings or confident conclusions unless they are supported by official criteria and by the current personal profile.
@@ -21,6 +21,13 @@ This note is a conservative pathway summary for decision support. It should avoi
 - Do not rank provinces or pathways until job reality, budget, and timeline are clearer
 - Mark anything dependent on test scores, exact documents, or province ties as conditional
 
+## Current Working Model
+- The strongest current strategy is a pathway stack, not a single pathway
+- Best current stack to research:
+  - OWP -> qualifying Canadian work -> Express Entry profile -> PNP targeting -> regional employer-driven backup
+- Current caution:
+  - This still depends on finding real work, not just holding an OWP
+
 ## Federal Pathways
 
 ### Canadian Experience Class (CEC)
@@ -31,10 +38,12 @@ This note is a conservative pathway summary for decision support. It should avoi
 #### What this means for the current profile
 - CEC is not available yet because there is no Canadian work experience
 - A Canada job may be one route to reaching CEC eligibility, but the note should not assume this is easy or guaranteed
+- If optimizing for PR, target jobs should ideally stay within TEER 0 to 3 so they can support CEC
 - OWP helps with legal work authorization, but it does not solve job search difficulty
 
 #### Current judgment
 - Potential medium-term pathway after successful settlement and qualifying work
+- Still one of the most important pathways to design around
 - Not a first-step pathway by itself
 
 ### Federal Skilled Worker Program (FSW) under Express Entry
@@ -52,6 +61,20 @@ This note is a conservative pathway summary for decision support. It should avoi
 #### Current judgment
 - Possible to evaluate further
 - Needs actual test-based numbers before a go / no-go conclusion
+
+### Category-Based Express Entry
+#### What appears important
+- Current category-based selection materially changes PR competitiveness
+- Current categories include French, healthcare and social services, STEM, trades, education, transport, and certain Canada work experience routes
+- For occupation-based categories, 1 year of eligible work experience in the last 3 years is a key threshold
+
+#### What this means for the current profile
+- If the target job choice overlaps with category-based occupations, PR odds may improve versus relying only on general CRS competition
+- French should not be dismissed as a side issue because it can create an additional route outside Quebec
+
+#### Current judgment
+- Important variable for pathway design
+- Should influence job targeting, not just immigration paperwork
 
 ## Provincial Pathways
 
@@ -75,10 +98,25 @@ This note is a conservative pathway summary for decision support. It should avoi
 #### What this means for the current profile
 - Alberta should be treated as a province for targeted stream review, not as a simple tech shortcut
 - It may become relevant if a real Alberta employment path appears
+- Alberta Opportunity Stream should not be assumed to fit all OWP holders
+- Alberta Express Entry Stream or Rural Renewal may be stronger than Alberta Opportunity Stream depending on job and permit type
 
 #### Current judgment
 - Conditional pathway worth monitoring
-- Not enough evidence yet to rank it ahead of other options
+- Worth tracking seriously, but not enough evidence yet to rank it ahead of Atlantic or other regional employer-driven options
+
+### Atlantic And Rural Employer-Driven Pathways
+#### What appears important
+- Atlantic Immigration Program and Rural Community Immigration Pilot may create more direct employer-linked PR options
+- These routes may be more useful than big-city job-first strategies if a designated employer can be found
+
+#### What this means for the current profile
+- If the goal is maximum PR probability rather than city preference, Atlantic and rural routes deserve high priority in research
+- These routes may still be hard in practice because they depend on employer fit and relocation realism
+
+#### Current judgment
+- Strong comparison set
+- Deserves side-by-side review against Alberta rather than being treated as a backup only
 
 ### Saskatchewan And Atlantic Pathways
 #### What appears important
@@ -97,12 +135,15 @@ This note is a conservative pathway summary for decision support. It should avoi
 - PR planning currently depends on three unknowns: OWP usable timeline, language-test outcome, and actual employability in Canada
 - Without those three items, pathway ranking will be weak
 - A province is only useful if both immigration conditions and job survival conditions are workable
+- If a province nomination is secured through an Express Entry-aligned stream, invitation odds become much stronger because of the 600-point effect
+- The nomination step remains the main bottleneck, not the final invitation step
 
 ### What should not be said yet
 - That one province is clearly the best option
 - That Express Entry is impossible
 - That PNP is automatically faster in a way that matters for this profile
 - That OWP possession creates a reliable PR route
+- That Alberta Opportunity Stream is automatically available because an OWP exists
 
 ## Conservative Next Questions
 - What is the latest rational move window within the OWP validity ending on 2029-01-27?
@@ -121,9 +162,18 @@ This note is a conservative pathway summary for decision support. It should avoi
 
 ## Interim Conclusion
 - The current research supports caution, not rejection and not optimism
-- CEC is a possible later path if Canadian qualifying work is actually obtained
-- FSW and province-based options should remain open questions until language, budget, and timeline are clearer
+- CEC remains a key medium-term path if Canadian qualifying work is actually obtained
+- PNP should be treated as an amplifier strategy rather than a separate magic shortcut
+- Alberta remains relevant, but AOS is conditional and should not displace higher-probability regional employer-driven options without permit-type confirmation
+- FSW, category-based Express Entry, and province-based options should remain open questions until language, budget, and timeline are clearer
 - The most defensible next step is to reduce unknowns before committing money to a move
 
 ## Source Standard
 - Re-check all pathway details against official IRCC or provincial sources before using this note for decisions
+- Key official sources rechecked on 2026-04-04:
+  - IRCC CEC eligibility
+  - IRCC category-based Express Entry updates
+  - IRCC PNP and Express Entry nomination guidance
+  - IRCC Atlantic Immigration Program
+  - IRCC Rural and Francophone community pilots
+  - Alberta AAIP and Alberta Opportunity Stream eligibility pages

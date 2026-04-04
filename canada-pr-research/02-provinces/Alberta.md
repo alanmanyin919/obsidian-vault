@@ -34,6 +34,11 @@ Province research note for settlement realism, job market fit, and pathway relev
   - [[canada-pr-research/03-pathways/alberta-opportunity-stream]]
   - [[canada-pr-research/03-pathways/alberta-express-entry-stream]]
   - [[canada-pr-research/03-pathways/rural-renewal-stream]]
+- Current working read as of 2026-04-04:
+  - Alberta is still worth comparing seriously
+  - Alberta Opportunity Stream is not automatically available just because an OWP exists
+  - Alberta Express Entry Stream and Rural Renewal may be more useful than AOS depending on permit type, employer fit, and occupation
+  - Alberta should be compared against Atlantic and other regional employer-driven routes rather than treated as an automatic front-runner
 
 ### Fit For Weaker English
 - To Research:
@@ -48,11 +53,15 @@ Province research note for settlement realism, job market fit, and pathway relev
 
 ## Working Assessment
 - Advantages:
-  - To Research
+  - Real province with multiple immigration pathways
+  - Potential balance between major-city chaos and smaller-market affordability
 - Concerns:
-  - To Research
+  - AOS has tighter conditions than a generic OWP narrative suggests
+  - Job-market fit still matters more than pathway branding
+  - Calgary and Edmonton may still carry meaningful competition and cost pressure
 - Overall fit:
-  - To Research
+  - Worth keeping in the top comparison set
+  - Not strong enough yet to rank ahead of Atlantic or other regional options without better job and permit-fit evidence
 
 ## Related Notes
 - [[canada-pr-research/01-core/04-province-comparison]]

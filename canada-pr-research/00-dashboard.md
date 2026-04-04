@@ -3,12 +3,18 @@
 ## Purpose
 This workspace is the main decision-support area for Canada permanent residence planning, immigration research, and relocation evaluation. It is designed to support practical research, structured comparison, and low-friction review when energy is limited.
 
+## Current Mode
+- Project status: Restarting from Phase 1 as of 2026-04-04
+- Interpretation:
+  - Existing province, pathway, job, and resume notes remain useful as draft research
+  - They should not be treated as final direction until Phase 1 and Phase 2 are re-confirmed
+
 ## Current Situation Summary
 - Hong Kong user, age 32
 - Valid Canada Open Work Permit (OWP), issued on 2026-01-28 and expiring on 2029-01-27
 - Previously visited Canada from 2026-01-28 to 2026-02-04
 - Progress has been limited since returning to Hong Kong
-- Total assets/savings may be around HKD 600,000, but only around HKD 200,000 may be realistically available for a Canada plan
+- Total assets/savings may be around HKD 600,000, but the actual budget currently available for a Canada plan is HKD 100,000
 - No strong local network in Canada
 - English communication is a constraint, especially speaking and general workplace communication
 - Mental health is a serious planning factor and must be treated as part of the decision, not as a side issue
@@ -85,12 +91,10 @@ See [[canada-pr-research/01-core/02-should-i-try-canada]], [[canada-pr-research/
 - [ ] Review [[canada-pr-research/01-core/01-personal-profile]] and correct any inaccurate assumptions
 - [ ] Fill in missing dates and status details in [[canada-pr-research/05-planning/01-owp-strategy]]
 - [ ] Estimate Canada trial budget in [[canada-pr-research/05-planning/02-financial-planning]]
-- [ ] Do first-pass scoring in [[canada-pr-research/01-core/04-province-comparison]]
-- [ ] Pick 2-3 job paths to research first in [[canada-pr-research/04-job-paths/01-job-paths-overview]]
-- [ ] Put the latest current resume into [[canada-pr-research/07-resume/01-resume-source/readme]]
-- [ ] Review [[canada-pr-research/07-resume/02-cv-investigation/canada-resume-expectations]] before editing
-- [ ] Turn the suggestions in [[canada-pr-research/07-resume/03-revision-notes/proposed-resume-improvements]] into a revised draft
 - [ ] Start a reality check in [[canada-pr-research/01-core/02-should-i-try-canada]]
+- [ ] Define what success and failure would look like in [[canada-pr-research/01-core/02-should-i-try-canada]]
+- [ ] Compare trial move, job-first move, and committed relocation in [[canada-pr-research/01-core/02-should-i-try-canada]]
+- [ ] Only after Phase 1 and Phase 2 are re-confirmed, return to province comparison, job paths, and resume execution
 
 ## Open Questions
 - What is the latest practical entry timeline within the OWP window ending on 2029-01-27?
@@ -111,4 +115,5 @@ See [[canada-pr-research/01-core/02-should-i-try-canada]], [[canada-pr-research/
 - Move stable findings into province, pathway, job, or planning notes
 - Mark uncertain points as `To Research`
 - Prefer dated decision reviews over vague thinking loops
+- Treat Phase 3 and later notes as provisional while the restart is in progress
 - Agents working in this folder should follow [[canada-pr-research/AGENTS]]

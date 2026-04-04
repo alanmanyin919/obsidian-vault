@@ -3,6 +3,12 @@
 ## Purpose
 This note compares realistic province and region options at a high level before deeper research is added to the individual province notes.
 
+## Current Status
+- Status: Paused during project restart as of 2026-04-04
+- Rule:
+  - Do not finalize province scoring until Phase 1 and Phase 2 are re-confirmed
+  - Existing pathway and province research can still be used as draft input later
+
 ## Comparison Criteria
 - Cost of living
 - Immigration friendliness
@@ -35,6 +41,7 @@ This note compares realistic province and region options at a high level before 
 - Do Atlantic provinces offer lower pressure, or do they create job and isolation risks?
 
 ## Research Sequence
+- [ ] Resume this note only after rechecking baseline facts, OWP strategy, budget, and move-style decision
 - [ ] Do first-pass desk research on Alberta, Manitoba, and Saskatchewan
 - [ ] Compare Atlantic provinces as a separate cluster
 - [ ] Treat Ontario and British Columbia as benchmark cases, not default choices

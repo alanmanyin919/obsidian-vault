@@ -3,6 +3,14 @@
 ## Purpose
 This roadmap breaks Canada PR planning and Canada job application preparation into small, reviewable steps.
 
+## Current Restart Status
+- Restart date: 2026-04-04
+- Working instruction:
+  - Redo the project from Phase 1
+  - Treat Phase 3 and later research as draft material until Phase 1 and Phase 2 are re-confirmed
+- Immediate focus:
+  - Finish Phase 1 before doing new province ranking, pathway ranking, resume execution, or job-search execution
+
 ## How To Use This Roadmap
 - Work from top to bottom unless priorities change.
 - Each item should be split into the smallest practical approval unit.
@@ -68,3 +76,6 @@ This roadmap breaks Canada PR planning and Canada job application preparation in
 - Review one PR pathway eligibility question
 - Extract keywords from one job posting
 - Revise one role-specific resume summary
+
+## Restart Rule
+- If a note from Phase 3 onward conflicts with the rechecked Phase 1 or Phase 2 baseline, the earlier research should be treated as provisional and revised later
