@@ -25,6 +25,7 @@ The timer triggers this wrapper script:
 The wrapper:
 
 - changes into the vault root
+- refreshes the local checkout with `gh auth setup-git` and a fast-forward pull
 - runs the Node scheduler
 - writes output to `canada-pr-research/logs/canada-pr-scheduler.log`
 
@@ -105,4 +106,5 @@ That means:
 - The scheduler script decides whether any tasks are due for the current date.
 - If nothing is due, the run exits cleanly and logs `No due tasks ...`.
 - The scheduler uses the local Codex CLI session of the user running the service.
+- The wrapper expects the `ubuntu` user to already be logged into GitHub CLI with a valid `gh auth status`.
 - The service runs as `ubuntu`, not `root`.

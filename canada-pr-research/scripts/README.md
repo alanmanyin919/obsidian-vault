@@ -14,6 +14,8 @@ This folder contains the automation scripts for scheduled Canada PR research upd
 - `run-canada-pr-scheduler.sh`
   - Ubuntu-oriented wrapper script.
   - Changes into the vault root.
+  - Refreshes the local vault checkout before the run.
+  - Uses `gh auth setup-git` so the pull uses the Ubuntu user's GitHub CLI auth.
   - Runs the Node scheduler.
   - Appends output to `canada-pr-research/logs/canada-pr-scheduler.log`.
 
@@ -111,6 +113,10 @@ These are optional, but useful for unattended Ubuntu runs:
 - `GIT_USER_NAME`
 - `GIT_USER_EMAIL`
 - `GIT_PUSH_URL`
+- `GH_BIN`
+- `GIT_REMOTE`
+- `GIT_BRANCH`
+- `PULL_LATEST`
 
 Example:
 
@@ -119,6 +125,10 @@ export CODEX_BIN=/home/ubuntu/.nvm/versions/node/v24.1.0/bin/codex
 export GIT_USER_NAME='Alan Man'
 export GIT_USER_EMAIL='alanmanyin919@gmail.com'
 export GIT_PUSH_URL='https://alanmanyin919:<PAT>@github.com/alanmanyin919/obsidian-vault.git'
+export GH_BIN=/usr/bin/gh
+export GIT_REMOTE=origin
+export GIT_BRANCH=main
+export PULL_LATEST=1
 ```
 
 ## Logs
@@ -134,6 +144,8 @@ The wrapper script writes logs here:
 - Use absolute paths in cron or systemd.
 - Cron and systemd user services usually have a minimal environment, so `CODEX_BIN` and git-related variables should be set explicitly.
 - If you use `--auto-commit-and-push`, prefer a protected environment file or credential helper over hardcoding the PAT directly in the service file.
+- The wrapper script now does a pre-run `git pull --ff-only` after calling `gh auth setup-git`.
+- `gh auth status` for the `ubuntu` user must already be valid before the service runs.
 
 ## Related Notes
 
