@@ -14,7 +14,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ## Output Conventions
 - Default output root: `canada-pr-research/99-drafts`
-- Filename pattern: `YYYY-MM-DD-task-slug.md`
+- Filename pattern: `YYYY-MM-DDTHHMMSSZ-task-slug.md`
 - Each update should include:
   - checked-on
   - task-id
@@ -29,8 +29,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ### Task: owp-and-ircc-check
 - status: active
-- frequency: weekly
-- schedule-day: monday
+- frequency: every-2-hours
 - priority: high
 - source-tier: official-only-first
 - sources:
@@ -48,8 +47,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ### Task: alberta-pathway-check
 - status: active
-- frequency: biweekly
-- schedule-day: tuesday
+- frequency: every-2-hours
 - priority: medium
 - source-tier: official-only-first
 - sources:
@@ -64,8 +62,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ### Task: manitoba-pathway-check
 - status: active
-- frequency: biweekly
-- schedule-day: wednesday
+- frequency: every-2-hours
 - priority: medium
 - source-tier: official-only-first
 - sources:
@@ -80,8 +77,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ### Task: saskatchewan-pathway-check
 - status: active
-- frequency: monthly
-- schedule-day: thursday
+- frequency: every-2-hours
 - priority: medium
 - source-tier: official-only-first
 - sources:
@@ -94,12 +90,33 @@ This note defines recurring research tasks that an agent can check on a schedule
 - output-folder: `canada-pr-research/99-drafts/province-updates`
 - output-format: markdown-summary
 
+### Task: suitable-job-post-check
+- status: active
+- frequency: every-2-hours
+- priority: high
+- source-tier: official-and-reputable-job-boards-first
+- sources:
+  - LinkedIn Jobs
+  - Indeed Canada
+  - Job Bank Canada
+  - Provincial or regional job boards when useful
+- focus:
+  - job posts that fit the current target role families
+  - roles with lower barriers for spoken English and local network
+  - roles connected to realistic survival and PR-supporting pathways
+  - opportunities in provinces currently being tracked in this workspace
+- output-folder: `canada-pr-research/99-drafts/job-post-updates`
+- output-format: markdown-summary
+- notes:
+  - Prefer practical, currently open jobs over generic market commentary.
+  - Capture title, employer, location, link, and why the job may fit this profile.
+  - Flag postings that appear especially realistic or strategically useful.
+
 ## Inactive Or Future Tasks
 
 ### Task: atlantic-pathway-check
 - status: paused
-- frequency: monthly
-- schedule-day: friday
+- frequency: every-2-hours
 - priority: low
 - source-tier: official-only-first
 - sources:

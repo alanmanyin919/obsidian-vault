@@ -231,15 +231,16 @@ function parseTasks(markdown) {
   return tasks;
 }
 
-function toDateOnly(dateInput) {
+function toRunDate(dateInput) {
   if (!dateInput) {
-    const now = new Date();
-    return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+    return new Date();
   }
 
-  const parsed = new Date(`${dateInput}T00:00:00Z`);
+  const parsed = /^\d{4}-\d{2}-\d{2}$/.test(dateInput)
+    ? new Date(`${dateInput}T00:00:00Z`)
+    : new Date(dateInput);
   if (Number.isNaN(parsed.getTime())) {
-    throw new Error(`Invalid --date value: ${dateInput}. Expected YYYY-MM-DD.`);
+    throw new Error(`Invalid --date value: ${dateInput}. Expected YYYY-MM-DD or ISO datetime.`);
   }
   return parsed;
 }
@@ -249,6 +250,16 @@ function formatDate(date) {
   const month = String(date.getUTCMonth() + 1).padStart(2, "0");
   const day = String(date.getUTCDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
+}
+
+function formatTimestamp(date) {
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  const hour = String(date.getUTCHours()).padStart(2, "0");
+  const minute = String(date.getUTCMinutes()).padStart(2, "0");
+  const second = String(date.getUTCSeconds()).padStart(2, "0");
+  return `${year}-${month}-${day}T${hour}${minute}${second}Z`;
 }
 
 function weekdayName(date) {
@@ -289,6 +300,9 @@ function isDueToday(task, runDate) {
   }
   if (frequency === "monthly") {
     return runDate.getUTCDate() <= 7;
+  }
+  if (frequency === "every-2-hours") {
+    return true;
   }
 
   return false;
@@ -363,7 +377,7 @@ function buildTargetFile(task, runDate) {
   }
 
   const targetDir = path.join(VAULT_ROOT, task.outputFolder);
-  const filename = `${formatDate(runDate)}-${task.taskId}.md`;
+  const filename = `${formatTimestamp(runDate)}-${task.taskId}.md`;
   return {
     targetDir,
     targetFile: path.join(targetDir, filename),
@@ -371,7 +385,7 @@ function buildTargetFile(task, runDate) {
 }
 
 function buildPrompt(task, runDate, targetFile) {
-  const checkedOn = formatDate(runDate);
+  const checkedOn = formatTimestamp(runDate);
   const sources = task.sources.length ? task.sources.map((item) => `- ${item}`).join("\n") : "- No sources configured";
   const focus = task.focus.length ? task.focus.map((item) => `- ${item}`).join("\n") : "- No focus configured";
   const notes = task.notes.length ? task.notes.map((item) => `- ${item}`).join("\n") : "- No extra notes";
@@ -518,7 +532,7 @@ function commitAndPushFiles(files, runDate, args) {
   }
 
   const branch = args.gitBranch || getCurrentBranch();
-  const commitMessage = `Update Canada PR scheduled research ${formatDate(runDate)}`;
+  const commitMessage = `Update Canada PR scheduled research ${formatTimestamp(runDate)}`;
   const commitResult = runCommand("git", ["commit", "-m", commitMessage, "--", ...uniqueFiles]);
   if (commitResult.code !== 0) {
     throw new Error(commitResult.stderr.trim() || commitResult.stdout.trim() || "git commit failed.");
@@ -558,7 +572,7 @@ function commitAndPushFiles(files, runDate, args) {
 
 function main() {
   const args = parseArgs(process.argv.slice(2));
-  const runDate = toDateOnly(args.date);
+  const runDate = toRunDate(args.date);
   const markdown = readFile(TASKS_FILE);
   let tasks = parseTasks(markdown);
 
