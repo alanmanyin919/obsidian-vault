@@ -30,6 +30,7 @@ function parseArgs(argv) {
     gitUserName: process.env.GIT_USER_NAME || null,
     gitUserEmail: process.env.GIT_USER_EMAIL || null,
     gitPushUrl: process.env.GIT_PUSH_URL || null,
+    ghBin: process.env.GH_BIN || "gh",
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -107,6 +108,11 @@ function parseArgs(argv) {
     }
     if (arg === "--git-push-url") {
       args.gitPushUrl = argv[i + 1] || null;
+      i += 1;
+      continue;
+    }
+    if (arg === "--gh-bin") {
+      args.ghBin = argv[i + 1] || null;
       i += 1;
       continue;
     }
@@ -339,6 +345,18 @@ function configureGitIdentity(args) {
   }
 }
 
+function configureGhGitAuth(args) {
+  const statusResult = runCommand(args.ghBin, ["auth", "status"]);
+  if (statusResult.code !== 0) {
+    throw new Error(statusResult.stderr.trim() || statusResult.stdout.trim() || "gh auth status failed.");
+  }
+
+  const setupResult = runCommand(args.ghBin, ["auth", "setup-git"]);
+  if (setupResult.code !== 0) {
+    throw new Error(setupResult.stderr.trim() || setupResult.stdout.trim() || "gh auth setup-git failed.");
+  }
+}
+
 function buildTargetFile(task, runDate) {
   if (!task.outputFolder) {
     throw new Error(`Task ${task.taskId} is missing output-folder.`);
@@ -484,6 +502,7 @@ function commitAndPushFiles(files, runDate, args) {
   }
 
   configureGitIdentity(args);
+  configureGhGitAuth(args);
 
   const addResult = runCommand("git", ["add", "--", ...uniqueFiles]);
   if (addResult.code !== 0) {
