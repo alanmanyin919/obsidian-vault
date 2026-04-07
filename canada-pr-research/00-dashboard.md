@@ -48,8 +48,8 @@ See [[canada-pr-research/01-core/02-should-i-try-canada]], [[canada-pr-research/
   - [[canada-pr-research/05-planning/01-owp-strategy]]
   - [[canada-pr-research/05-planning/02-financial-planning]]
   - [[canada-pr-research/05-planning/03-mental-health-and-sustainability]]
-  - [[canada-pr-research/08-roadmap/00-master-roadmap]]
-  - [[canada-pr-research/08-roadmap/01-progress-tracker]]
+  - [[canada-pr-research/01-master-roadmap]]
+  - [[canada-pr-research/02-progress-tracker]]
 - Job Research
   - [[canada-pr-research/04-job-paths/01-job-paths-overview]]
   - [[canada-pr-research/04-job-paths/it-support]]
