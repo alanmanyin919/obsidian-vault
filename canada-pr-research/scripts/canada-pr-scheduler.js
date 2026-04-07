@@ -23,6 +23,13 @@ function parseArgs(argv) {
     search: true,
     sandbox: "workspace-write",
     approval: "on-failure",
+    dangerousBypass: false,
+    autoCommitAndPush: false,
+    gitRemote: "origin",
+    gitBranch: null,
+    gitUserName: process.env.GIT_USER_NAME || null,
+    gitUserEmail: process.env.GIT_USER_EMAIL || null,
+    gitPushUrl: process.env.GIT_PUSH_URL || null,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -38,6 +45,14 @@ function parseArgs(argv) {
     }
     if (arg === "--no-search") {
       args.search = false;
+      continue;
+    }
+    if (arg === "--dangerously-bypass-approvals-and-sandbox") {
+      args.dangerousBypass = true;
+      continue;
+    }
+    if (arg === "--auto-commit-and-push") {
+      args.autoCommitAndPush = true;
       continue;
     }
     if (arg === "--date") {
@@ -67,6 +82,31 @@ function parseArgs(argv) {
     }
     if (arg === "--approval") {
       args.approval = argv[i + 1] || null;
+      i += 1;
+      continue;
+    }
+    if (arg === "--git-remote") {
+      args.gitRemote = argv[i + 1] || null;
+      i += 1;
+      continue;
+    }
+    if (arg === "--git-branch") {
+      args.gitBranch = argv[i + 1] || null;
+      i += 1;
+      continue;
+    }
+    if (arg === "--git-user-name") {
+      args.gitUserName = argv[i + 1] || null;
+      i += 1;
+      continue;
+    }
+    if (arg === "--git-user-email") {
+      args.gitUserEmail = argv[i + 1] || null;
+      i += 1;
+      continue;
+    }
+    if (arg === "--git-push-url") {
+      args.gitPushUrl = argv[i + 1] || null;
       i += 1;
       continue;
     }
@@ -254,6 +294,51 @@ function ensureDir(dirPath, dryRun) {
   }
 }
 
+function runCommand(command, commandArgs, options = {}) {
+  const result = spawnSync(command, commandArgs, {
+    cwd: options.cwd || VAULT_ROOT,
+    encoding: "utf8",
+    stdio: ["pipe", "pipe", "pipe"],
+    input: options.input,
+  });
+
+  return {
+    code: result.status,
+    stdout: result.stdout || "",
+    stderr: result.stderr || "",
+  };
+}
+
+function getCurrentBranch() {
+  const result = runCommand("git", ["branch", "--show-current"]);
+  if (result.code !== 0) {
+    throw new Error(result.stderr.trim() || "Failed to detect current git branch.");
+  }
+
+  const branch = result.stdout.trim();
+  if (!branch) {
+    throw new Error("Current git branch is empty.");
+  }
+
+  return branch;
+}
+
+function configureGitIdentity(args) {
+  if (args.gitUserName) {
+    const nameResult = runCommand("git", ["config", "user.name", args.gitUserName]);
+    if (nameResult.code !== 0) {
+      throw new Error(nameResult.stderr.trim() || "Failed to set git user.name.");
+    }
+  }
+
+  if (args.gitUserEmail) {
+    const emailResult = runCommand("git", ["config", "user.email", args.gitUserEmail]);
+    if (emailResult.code !== 0) {
+      throw new Error(emailResult.stderr.trim() || "Failed to set git user.email.");
+    }
+  }
+}
+
 function buildTargetFile(task, runDate) {
   if (!task.outputFolder) {
     throw new Error(`Task ${task.taskId} is missing output-folder.`);
@@ -355,11 +440,13 @@ function runCodexForTask(task, runDate, args) {
     codexArgs.push("--search");
   }
 
-  if (args.sandbox) {
+  if (args.dangerousBypass) {
+    codexArgs.push("--dangerously-bypass-approvals-and-sandbox");
+  } else if (args.sandbox) {
     codexArgs.push("--sandbox", args.sandbox);
   }
 
-  if (args.approval) {
+  if (!args.dangerousBypass && args.approval) {
     codexArgs.push("--ask-for-approval", args.approval);
   }
 
@@ -375,20 +462,78 @@ function runCodexForTask(task, runDate, args) {
     "-"
   );
 
-  const result = spawnSync(args.codexBin, codexArgs, {
+  const result = runCommand(args.codexBin, codexArgs, {
     cwd: VAULT_ROOT,
     input: prompt,
-    encoding: "utf8",
-    stdio: ["pipe", "pipe", "pipe"],
   });
 
   return {
     taskId: task.taskId,
     targetFile,
-    action: result.status === 0 ? "codex-ran" : "codex-failed",
-    code: result.status,
-    stdout: result.stdout || "",
-    stderr: result.stderr || "",
+    action: result.code === 0 ? "codex-ran" : "codex-failed",
+    code: result.code,
+    stdout: result.stdout,
+    stderr: result.stderr,
+  };
+}
+
+function commitAndPushFiles(files, runDate, args) {
+  const uniqueFiles = [...new Set(files)].filter(Boolean);
+  if (!uniqueFiles.length) {
+    return { action: "git-skipped", message: "No files to commit." };
+  }
+
+  configureGitIdentity(args);
+
+  const addResult = runCommand("git", ["add", "--", ...uniqueFiles]);
+  if (addResult.code !== 0) {
+    throw new Error(addResult.stderr.trim() || "git add failed.");
+  }
+
+  const diffResult = runCommand("git", ["diff", "--cached", "--quiet", "--", ...uniqueFiles]);
+  if (diffResult.code === 0) {
+    return { action: "git-skipped", message: "No staged changes for scheduled output files." };
+  }
+  if (diffResult.code !== 1) {
+    throw new Error(diffResult.stderr.trim() || "git diff --cached --quiet failed.");
+  }
+
+  const branch = args.gitBranch || getCurrentBranch();
+  const commitMessage = `Update Canada PR scheduled research ${formatDate(runDate)}`;
+  const commitResult = runCommand("git", ["commit", "-m", commitMessage, "--", ...uniqueFiles]);
+  if (commitResult.code !== 0) {
+    throw new Error(commitResult.stderr.trim() || commitResult.stdout.trim() || "git commit failed.");
+  }
+
+  const pushArgs = args.gitPushUrl
+    ? ["push", args.gitPushUrl, branch]
+    : ["push", args.gitRemote, branch];
+  const pushResult = runCommand("git", pushArgs);
+  if (pushResult.code !== 0) {
+    throw new Error(pushResult.stderr.trim() || "git push failed.");
+  }
+
+  const fetchResult = runCommand("git", ["fetch", args.gitRemote]);
+  if (fetchResult.code !== 0) {
+    throw new Error(fetchResult.stderr.trim() || "git fetch failed.");
+  }
+
+  const statusResult = runCommand("git", ["status", "--short", "--branch"]);
+  if (statusResult.code !== 0) {
+    throw new Error(statusResult.stderr.trim() || "git status failed.");
+  }
+
+  return {
+    action: "git-pushed",
+    branch,
+    remote: args.gitRemote,
+    commitMessage,
+    stdout: [
+      commitResult.stdout.trim(),
+      pushResult.stdout.trim(),
+      fetchResult.stdout.trim(),
+      statusResult.stdout.trim(),
+    ].filter(Boolean).join("\n"),
   };
 }
 
@@ -417,6 +562,7 @@ function main() {
   console.log(`Running scheduler for ${formatDate(runDate)}.`);
 
   let hadFailure = false;
+  const successfulFiles = [];
 
   for (const task of dueTasks) {
     const result = runCodexForTask(task, runDate, args);
@@ -437,11 +583,21 @@ function main() {
       if (result.stderr) {
         console.error(result.stderr.trim());
       }
+    } else if (!args.dryRun && result.action === "codex-ran") {
+      successfulFiles.push(result.targetFile);
     }
   }
 
   if (hadFailure) {
     process.exit(1);
+  }
+
+  if (args.autoCommitAndPush) {
+    const gitResult = commitAndPushFiles(successfulFiles, runDate, args);
+    console.log(`${gitResult.action}: ${gitResult.message || `${gitResult.remote}/${gitResult.branch}`}`);
+    if (gitResult.stdout) {
+      console.log(gitResult.stdout);
+    }
   }
 }
 
