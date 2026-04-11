@@ -5,12 +5,12 @@ const path = require("path");
 const { spawnSync } = require("child_process");
 
 const VAULT_ROOT = path.resolve(__dirname, "../..");
-const CANADA_PR_ROOT = path.join(VAULT_ROOT, "canada-pr-research");
-const TASKS_FILE = path.join(CANADA_PR_ROOT, "03-regular-tasks.md");
-const WORKFLOW_FILE = path.join(CANADA_PR_ROOT, "04-agent-workflow.md");
-const AGENTS_FILE = path.join(CANADA_PR_ROOT, "AGENTS.md");
-const ROADMAP_FILE = path.join(CANADA_PR_ROOT, "01-master-roadmap.md");
-const TRACKER_FILE = path.join(CANADA_PR_ROOT, "02-progress-tracker.md");
+const RESEARCH_ROOT = path.join(VAULT_ROOT, "oversea-pr-research");
+const TASKS_FILE = path.join(RESEARCH_ROOT, "03-regular-tasks.md");
+const WORKFLOW_FILE = path.join(RESEARCH_ROOT, "04-agent-workflow.md");
+const AGENTS_FILE = path.join(RESEARCH_ROOT, "AGENTS.md");
+const ROADMAP_FILE = path.join(RESEARCH_ROOT, "01-master-roadmap.md");
+const TRACKER_FILE = path.join(RESEARCH_ROOT, "02-progress-tracker.md");
 
 function parseArgs(argv) {
   const args = {
@@ -314,6 +314,49 @@ function ensureDir(dirPath, dryRun) {
   }
 }
 
+function findExistingDailyTaskFile(targetDir, taskId, runDate) {
+  if (!fs.existsSync(targetDir)) {
+    return null;
+  }
+
+  const dayPrefix = `${formatDate(runDate)}T`;
+  const taskSuffix = `-${taskId}.md`;
+
+  const matches = fs
+    .readdirSync(targetDir, { withFileTypes: true })
+    .filter((entry) => entry.isFile())
+    .map((entry) => entry.name)
+    .filter((name) => name.startsWith(dayPrefix) && name.endsWith(taskSuffix))
+    .sort();
+
+  if (!matches.length) {
+    return null;
+  }
+
+  return path.join(targetDir, matches[matches.length - 1]);
+}
+
+function findLatestTaskFile(targetDir, taskId) {
+  if (!fs.existsSync(targetDir)) {
+    return null;
+  }
+
+  const taskSuffix = `-${taskId}.md`;
+
+  const matches = fs
+    .readdirSync(targetDir, { withFileTypes: true })
+    .filter((entry) => entry.isFile())
+    .map((entry) => entry.name)
+    .filter((name) => name.endsWith(taskSuffix))
+    .sort();
+
+  if (!matches.length) {
+    return null;
+  }
+
+  return path.join(targetDir, matches[matches.length - 1]);
+}
+
 function runCommand(command, commandArgs, options = {}) {
   const result = spawnSync(command, commandArgs, {
     cwd: options.cwd || VAULT_ROOT,
@@ -377,18 +420,38 @@ function buildTargetFile(task, runDate) {
   }
 
   const targetDir = path.join(VAULT_ROOT, task.outputFolder);
-  const filename = `${formatTimestamp(runDate)}-${task.taskId}.md`;
+  const existingTodayFile = findExistingDailyTaskFile(targetDir, task.taskId, runDate);
+  const latestTaskFile = existingTodayFile || findLatestTaskFile(targetDir, task.taskId);
+  const filename = existingTodayFile
+    ? path.basename(existingTodayFile)
+    : `${formatTimestamp(runDate)}-${task.taskId}.md`;
+
   return {
     targetDir,
+    existingTodayFile,
+    latestTaskFile,
     targetFile: path.join(targetDir, filename),
   };
 }
 
-function buildPrompt(task, runDate, targetFile) {
+function buildPrompt(task, runDate, targetFile, existingTodayFile, latestTaskFile) {
   const checkedOn = formatTimestamp(runDate);
   const sources = task.sources.length ? task.sources.map((item) => `- ${item}`).join("\n") : "- No sources configured";
   const focus = task.focus.length ? task.focus.map((item) => `- ${item}`).join("\n") : "- No focus configured";
   const notes = task.notes.length ? task.notes.map((item) => `- ${item}`).join("\n") : "- No extra notes";
+  const hasProgressContext = Boolean(latestTaskFile);
+  const fileInstruction = existingTodayFile
+    ? `5. Update the existing markdown note at ${targetFile}. Keep the file as today's running record for this task instead of creating a second file.\n`
+    : `${hasProgressContext ? "6" : "4"}. Write exactly one new markdown note to ${targetFile}.\n`;
+  const progressInstruction = hasProgressContext
+    ? `2. Read the latest existing progress note for this task first: ${latestTaskFile}\n3. Use that existing note to identify what has already been checked, what remains uncertain, and what should be updated in this run.\n4. Research only this scheduled task.\n`
+    : `2. Research only this scheduled task.\n`;
+  const searchInstruction = hasProgressContext
+    ? `5. Prefer official sources first and use web search when needed.\n`
+    : `3. Prefer official sources first and use web search when needed.\n`;
+  const draftInstruction = hasProgressContext
+    ? `${existingTodayFile ? "6" : "7"}. Keep the output as a draft update only. Do not modify stable notes, the roadmap, the tracker, or the dashboard.\n${existingTodayFile ? "7" : "8"}. If there is no meaningful change, still write a dated no-change check.`
+    : `5. Keep the output as a draft update only. Do not modify stable notes, the roadmap, the tracker, or the dashboard.\n6. If there is no meaningful change, still write a dated no-change check.`;
 
   return `You are running a scheduled Canada PR research job inside an Obsidian vault.
 
@@ -404,11 +467,7 @@ You must:
    - ${TRACKER_FILE}
    - ${WORKFLOW_FILE}
    - ${TASKS_FILE}
-2. Research only this scheduled task.
-3. Prefer official sources first and use web search when needed.
-4. Write exactly one markdown note to ${targetFile}.
-5. Keep the output as a draft update only. Do not modify stable notes, the roadmap, the tracker, or the dashboard.
-6. If there is no meaningful change, still write a dated no-change check.
+${progressInstruction}${searchInstruction}${fileInstruction}${draftInstruction}
 
 Task configuration:
 - frequency: ${task.frequency || "unspecified"}
@@ -453,17 +512,19 @@ Required output structure:
 }
 
 function runCodexForTask(task, runDate, args) {
-  const { targetDir, targetFile } = buildTargetFile(task, runDate);
+  const { targetDir, targetFile, existingTodayFile, latestTaskFile } = buildTargetFile(task, runDate);
   ensureDir(targetDir, args.dryRun);
 
-  if (fs.existsSync(targetFile) && !args.force) {
-    return { taskId: task.taskId, targetFile, action: "skipped-existing", code: 0 };
-  }
-
-  const prompt = buildPrompt(task, runDate, targetFile);
+  const prompt = buildPrompt(task, runDate, targetFile, existingTodayFile, latestTaskFile);
 
   if (args.dryRun) {
-    return { taskId: task.taskId, targetFile, action: "dry-run", code: 0, prompt };
+    return {
+      taskId: task.taskId,
+      targetFile,
+      action: existingTodayFile ? "dry-run-update-existing" : "dry-run-create-new",
+      code: 0,
+      prompt,
+    };
   }
 
   const codexArgs = [];
@@ -502,7 +563,9 @@ function runCodexForTask(task, runDate, args) {
   return {
     taskId: task.taskId,
     targetFile,
-    action: result.code === 0 ? "codex-ran" : "codex-failed",
+    action: result.code === 0
+      ? (existingTodayFile ? "codex-updated-existing" : "codex-created-new")
+      : "codex-failed",
     code: result.code,
     stdout: result.stdout,
     stderr: result.stderr,

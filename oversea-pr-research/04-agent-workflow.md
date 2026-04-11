@@ -4,10 +4,10 @@
 This note defines how a scheduled agent should run recurring Canada PR research tasks and write draft updates into this vault.
 
 ## Required Read Order
-1. `canada-pr-research/AGENTS.md`
-2. `canada-pr-research/01-master-roadmap.md`
-3. `canada-pr-research/02-progress-tracker.md`
-4. `canada-pr-research/03-regular-tasks.md`
+1. `oversea-pr-research/AGENTS.md`
+2. `oversea-pr-research/01-master-roadmap.md`
+3. `oversea-pr-research/02-progress-tracker.md`
+4. `oversea-pr-research/03-regular-tasks.md`
 
 ## Agent Constraints
 - Behave like a careful research assistant, not an autonomous decision-maker.
@@ -60,8 +60,8 @@ Use this structure for every scheduled task result.
 ## File And Folder Rules
 - Use kebab-case for any new file or folder names.
 - Suggested output roots:
-  - `canada-pr-research/99-drafts/official-updates`
-  - `canada-pr-research/99-drafts/province-updates`
+  - `oversea-pr-research/90-research-updates/official-updates`
+  - `oversea-pr-research/90-research-updates/province-updates`
 - Suggested filename format:
   - `YYYY-MM-DD-task-id.md`
 

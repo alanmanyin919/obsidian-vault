@@ -6,7 +6,7 @@ This folder contains the automation scripts for scheduled Canada PR research upd
 
 - `canada-pr-scheduler.js`
   - Main scheduler entrypoint.
-  - Reads `canada-pr-research/03-regular-tasks.md`.
+  - Reads `oversea-pr-research/03-regular-tasks.md`.
   - Decides which tasks are due.
   - Calls the local `codex` CLI to run each due research job.
   - Can optionally auto-commit and push the generated draft notes.
@@ -17,36 +17,36 @@ This folder contains the automation scripts for scheduled Canada PR research upd
   - Refreshes the local vault checkout before the run.
   - Uses `gh auth setup-git` so the pull uses the Ubuntu user's GitHub CLI auth.
   - Runs the Node scheduler.
-  - Appends output to `canada-pr-research/logs/canada-pr-scheduler.log`.
+  - Appends output to `oversea-pr-research/logs/canada-pr-scheduler.log`.
 
 ## Scheduler Inputs
 
 The scheduler always reads these files before running task work:
 
-- `canada-pr-research/AGENTS.md`
-- `canada-pr-research/01-master-roadmap.md`
-- `canada-pr-research/02-progress-tracker.md`
-- `canada-pr-research/03-regular-tasks.md`
-- `canada-pr-research/04-agent-workflow.md`
+- `oversea-pr-research/AGENTS.md`
+- `oversea-pr-research/01-master-roadmap.md`
+- `oversea-pr-research/02-progress-tracker.md`
+- `oversea-pr-research/03-regular-tasks.md`
+- `oversea-pr-research/04-agent-workflow.md`
 
 ## Common Commands
 
 Run a dry run:
 
 ```bash
-node canada-pr-research/scripts/canada-pr-scheduler.js --dry-run
+node oversea-pr-research/scripts/canada-pr-scheduler.js --dry-run
 ```
 
 Run one task manually:
 
 ```bash
-node canada-pr-research/scripts/canada-pr-scheduler.js --task owp-and-ircc-check --force
+node oversea-pr-research/scripts/canada-pr-scheduler.js --task owp-and-ircc-check --force
 ```
 
 Run with full Codex bypass:
 
 ```bash
-node canada-pr-research/scripts/canada-pr-scheduler.js --dangerously-bypass-approvals-and-sandbox
+node oversea-pr-research/scripts/canada-pr-scheduler.js --dangerously-bypass-approvals-and-sandbox
 ```
 
 Run with auto commit and push:
@@ -55,7 +55,7 @@ Run with auto commit and push:
 GIT_USER_NAME='Alan Man' \
 GIT_USER_EMAIL='alanmanyin919@gmail.com' \
 GIT_PUSH_URL='https://alanmanyin919:<PAT>@github.com/alanmanyin919/obsidian-vault.git' \
-node canada-pr-research/scripts/canada-pr-scheduler.js \
+node oversea-pr-research/scripts/canada-pr-scheduler.js \
   --dangerously-bypass-approvals-and-sandbox \
   --auto-commit-and-push \
   --git-branch main
@@ -136,7 +136,7 @@ export PULL_LATEST=1
 The wrapper script writes logs here:
 
 ```text
-/home/ubuntu/obsidian-vault/canada-pr-research/logs/canada-pr-scheduler.log
+/home/ubuntu/obsidian-vault/oversea-pr-research/logs/canada-pr-scheduler.log
 ```
 
 ## Ubuntu Notes
@@ -149,6 +149,6 @@ The wrapper script writes logs here:
 
 ## Related Notes
 
-- `canada-pr-research/systemd-scheduler-setup.md`
-- `canada-pr-research/03-regular-tasks.md`
-- `canada-pr-research/04-agent-workflow.md`
+- `oversea-pr-research/systemd-scheduler-setup.md`
+- `oversea-pr-research/03-regular-tasks.md`
+- `oversea-pr-research/04-agent-workflow.md`

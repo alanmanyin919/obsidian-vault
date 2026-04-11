@@ -6,8 +6,8 @@ This note explains how to run the Canada PR scheduler every 2 hours with a user-
 
 Tracked in the vault:
 
-- `canada-pr-research/scripts/canada-pr-scheduler.js`
-- `canada-pr-research/scripts/run-canada-pr-scheduler.sh`
+- `oversea-pr-research/scripts/canada-pr-scheduler.js`
+- `oversea-pr-research/scripts/run-canada-pr-scheduler.sh`
 
 Installed locally for the `ubuntu` user:
 
@@ -19,7 +19,7 @@ Installed locally for the `ubuntu` user:
 The timer triggers this wrapper script:
 
 ```bash
-/home/ubuntu/obsidian-vault/canada-pr-research/scripts/run-canada-pr-scheduler.sh
+/home/ubuntu/obsidian-vault/oversea-pr-research/scripts/run-canada-pr-scheduler.sh
 ```
 
 The wrapper:
@@ -27,7 +27,7 @@ The wrapper:
 - changes into the vault root
 - refreshes the local checkout with `gh auth setup-git` and a fast-forward pull
 - runs the Node scheduler
-- writes output to `canada-pr-research/logs/canada-pr-scheduler.log`
+- writes output to `oversea-pr-research/logs/canada-pr-scheduler.log`
 
 ## Enable The Timer
 
@@ -52,7 +52,7 @@ systemctl --user status canada-pr-scheduler.service
 You can also run the wrapper directly:
 
 ```bash
-/home/ubuntu/obsidian-vault/canada-pr-research/scripts/run-canada-pr-scheduler.sh
+/home/ubuntu/obsidian-vault/oversea-pr-research/scripts/run-canada-pr-scheduler.sh
 ```
 
 ## Logs
@@ -60,7 +60,7 @@ You can also run the wrapper directly:
 Primary log file:
 
 ```text
-/home/ubuntu/obsidian-vault/canada-pr-research/logs/canada-pr-scheduler.log
+/home/ubuntu/obsidian-vault/oversea-pr-research/logs/canada-pr-scheduler.log
 ```
 
 Journal output:

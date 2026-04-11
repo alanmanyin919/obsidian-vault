@@ -6,8 +6,8 @@
 - The goal is to break large planning work into very small, reviewable tasks and only save approved findings.
 
 ## Required Workflow
-1. Read the roadmap in `canada-pr-research/01-master-roadmap.md`.
-2. Read the current progress in `canada-pr-research/02-progress-tracker.md`.
+1. Read the roadmap in `oversea-pr-research/01-master-roadmap.md`.
+2. Read the current progress in `oversea-pr-research/02-progress-tracker.md`.
 3. Identify the next smallest useful task.
 4. Prepare a short plan for that task before doing it.
 5. Ask the user for approval through the Discord channel before performing the task.
