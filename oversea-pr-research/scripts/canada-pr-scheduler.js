@@ -281,6 +281,20 @@ function weeksSinceEpoch(date) {
   return Math.floor(diffMs / (7 * 24 * 60 * 60 * 1000));
 }
 
+function parseEveryNHours(frequency) {
+  const match = frequency.match(/^every-(\d+)-hours?$/);
+  if (!match) {
+    return null;
+  }
+
+  const hours = Number(match[1]);
+  if (!Number.isInteger(hours) || hours <= 0) {
+    return null;
+  }
+
+  return hours;
+}
+
 function isDueToday(task, runDate) {
   if ((task.status || "").toLowerCase() !== "active") {
     return false;
@@ -292,6 +306,10 @@ function isDueToday(task, runDate) {
   }
 
   const frequency = (task.frequency || "").toLowerCase();
+  const everyNHours = parseEveryNHours(frequency);
+  if (everyNHours) {
+    return runDate.getUTCHours() % everyNHours === 0;
+  }
   if (frequency === "weekly") {
     return true;
   }
@@ -300,9 +318,6 @@ function isDueToday(task, runDate) {
   }
   if (frequency === "monthly") {
     return runDate.getUTCDate() <= 7;
-  }
-  if (frequency === "every-2-hours") {
-    return true;
   }
 
   return false;

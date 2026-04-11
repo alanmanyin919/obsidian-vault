@@ -29,7 +29,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ### Task: owp-and-ircc-check
 - status: active
-- frequency: every-2-hours
+- frequency: every-3-hours
 - priority: high
 - source-tier: official-only-first
 - sources:
@@ -48,7 +48,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Keep scheduled outputs in this folder only. Do not write directly into stable planning notes.
 
 ### Task: suitable-job-post-check
-- status: active
+- status: paused
 - frequency: every-2-hours
 - priority: high
 - source-tier: official-and-reputable-job-boards-first
@@ -117,8 +117,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 
 ### Task: global-pathway-fit-scan
 - status: active
-- frequency: weekly
-- schedule-day: saturday
+- frequency: every-1-hour
 - priority: high
 - source-tier: official-first-with-reputable-supporting-sources
 - sources:
@@ -218,7 +217,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Keep the output folder limited to Atlantic-focused pathway monitoring.
 
 ### Task: alberta-pathway-check
-- status: active
+- status: paused
 - frequency: every-2-hours
 - priority: medium
 - source-tier: official-only-first
@@ -235,7 +234,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Keep the output folder limited to Alberta-specific updates and checks.
 
 ### Task: manitoba-pathway-check
-- status: active
+- status: paused
 - frequency: every-2-hours
 - priority: medium
 - source-tier: official-only-first
@@ -252,7 +251,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Keep the output folder limited to Manitoba-specific updates and checks.
 
 ### Task: saskatchewan-pathway-check
-- status: active
+- status: paused
 - frequency: every-2-hours
 - priority: medium
 - source-tier: official-only-first
