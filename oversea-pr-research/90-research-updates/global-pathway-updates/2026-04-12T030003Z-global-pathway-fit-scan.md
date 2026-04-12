@@ -1,51 +1,48 @@
 # global-pathway-fit-scan update
 
-- checked-on: 2026-04-12T070003Z
+- checked-on: 2026-04-12T080003Z
 - task-id: global-pathway-fit-scan
 - status: completed
 
 ## Sources Checked
 - Personal baseline note: [[oversea-pr-research/01-core/01-personal-profile]]
-- Canada Job Bank, Office Administrative Assistant in Canada, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/25599/ca
-- Canada Job Bank, User Support Technician in Canada, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/3772/ca
-- Canada Job Bank, Administrative Assistant in the Toronto Region, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/24789/geo9219
-- Canada Job Bank, User Support Technician in the Toronto Region, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/3772/geo9219
-- CMHC, Housing Information Highlights - Toronto CMA: https://www03.cmhc-schl.gc.ca/hmip-pimh/en/Dashboard/Print?geographyId=2270
-- GOV.UK Find a job, office administrator jobs in UK: https://findajob.dwp.gov.uk/search?loc=86383&q=office+administrator
-- GOV.UK Find a job, IT support jobs in UK: https://findajob.dwp.gov.uk/search?loc=86383&q=IT+support
-- GOV.UK Find a job, office administrator jobs in London: https://findajob.dwp.gov.uk/search?loc=86384&q=office+administrator
-- GOV.UK Find a job, IT support jobs in London: https://findajob.dwp.gov.uk/search?loc=86384&q=IT+support
-- ONS, Private rent and house prices, UK: March 2026: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/march2026
+- Canada Job Bank, Administrative Assistant in the Winnipeg Region, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/24789/geo11326
+- Canada Job Bank, User Support Technician in the Winnipeg Region, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/3772/geo11326
+- CMHC, Winnipeg average rent by bedroom type by zone: https://www03.cmhc-schl.gc.ca/hmip-pimh/en/TableMapChart/TableCategory?categoryLevel1=Primary+Rental+Market&categoryLevel2=Average+Rent+%28%24%29&geographyId=2680&geographyType=MetropolitanMajorArea
+- GOV.UK Find a job, office administrator jobs in Greater Manchester: https://findajob.dwp.gov.uk/search?loc=86397&q=office+administrator
+- GOV.UK Find a job, administrative assistant jobs in Greater Manchester: https://findajob.dwp.gov.uk/search?loc=86397&q=administrative+assistant
+- GOV.UK Find a job, IT support jobs in Greater Manchester: https://findajob.dwp.gov.uk/search?loc=86397&q=IT+support
+- ONS, Housing prices in Manchester: https://www.ons.gov.uk/visualisations/housingpriceslocal/E08000003
 - GOV.UK, British National (Overseas) visa overview: https://www.gov.uk/british-national-overseas-bno-visa
 - GOV.UK, British National (Overseas) visa settlement: https://www.gov.uk/british-national-overseas-bno-visa/settle-in-the-uk
 
 ## What Changed
-- This run used the previous note's main uncertainty as the only focus: whether the Canada-versus-UK comparison changes once current official job counts and rent signals are checked more directly.
-- The picture is now more mixed by occupation lane than the prior note implied. Canada still looks stronger for administrative support, while the UK looks materially stronger for IT support. Official counts checked this hour show 716 office administrative assistant postings in Canada versus 530 office administrator postings in the UK, but 69 user support technician postings in Canada versus 705 IT support postings in the UK.
-- The same split appears in the Toronto-versus-London spot check. Toronto currently shows 71 administrative assistant postings and 14 user support technician postings on Job Bank. London currently shows 44 office administrator postings and 174 IT support postings on Find a Job.
-- Cost pressure still weighs against the UK, especially if London is the landing market. CMHC shows Toronto CMA average apartment rent in 2025 at CAD 1,761 for 1 bedroom and CAD 2,046 for 2 bedroom, with a 3.0% total apartment vacancy rate. ONS shows London average private rent at GBP 2,273 in February 2026, still the highest among English regions.
-- The practical read changes slightly: UK BN(O) is not just a legal-pathway backup. It looks more credible if the realistic job lane is IT support rather than office support. Canada still holds the stronger overall position for this profile because work authorization is already in hand and Toronto's official rent signal looks less punishing than London's.
+- This run followed the last note's main uncertainty only: a lower-cost cluster check between Winnipeg and Greater Manchester instead of another Toronto-London pass.
+- The official job signal in this narrower comparison is less favorable to Winnipeg than the last run's Canada-leaning admin picture. Job Bank currently shows 15 administrative assistant jobs in the Winnipeg Region and 0 user support technician jobs there. Find a Job currently shows 33 office administrator jobs, 42 administrative assistant jobs, and 28 IT support jobs in Greater Manchester.
+- The rent signal for Manchester is materially less punishing than London, which makes the UK BN(O) path more operationally plausible than the last run's London-heavy comparison implied. ONS currently shows Manchester average monthly private rent at GBP 1,345 in February 2026, including GBP 985 for one bedroom and GBP 1,210 for two bedrooms.
+- Winnipeg still looks materially easier on housing within Canada. CMHC shows Winnipeg average rent in October 2025 at CAD 1,232 for one bedroom, CAD 1,570 for two bedrooms, and CAD 1,404 overall for row/apartment stock in the CMA table checked this run.
+- The practical conclusion shifts slightly again: the UK BN(O) route remains a real alternative, and Greater Manchester now looks like a more credible UK landing cluster than London for this profile.
 
 ## What Did Not Change
-- No official rule change was found this hour for the Canada OWP position, Canadian Experience Class direction, or the UK BN(O) route and settlement path.
-- Canada still has the lowest immigration friction for this profile because the OWP remains valid through 2029-01-27.
-- The UK Skilled Worker route still does not become the main UK plan for this profile. The BN(O) route remains the clearer UK access path because it does not require employer sponsorship at entry.
-- No official source checked this run displaced Canada or the UK as the most concrete current global options for this profile.
+- No official route change was found this run on the UK BN(O) visa pages. The route still allows work and study, offers 2 years 6 months or 5 years of stay, and still points to settlement after 5 continuous years in the UK.
+- Nothing in this run displaced Canada as the lowest-friction legal option because the existing Canada OWP is already held and valid to 2029-01-27 per the workspace baseline note.
+- No strong evidence appeared this hour that a third country should replace Canada or the UK as the main global focus.
+- I still do not have evidence from this run that junior developer pathways are the strongest practical lane; the more defensible lanes remain office support, application support, and IT support.
 
 ## Relevance To My Situation
-- For this profile, the key practical question is not only "which visa exists" but "which country gives the better chance of getting into survivable work before budget and mental health pressure get worse."
-- Canada still looks like the safer default if the near-term plan must minimize immigration friction and avoid the sharpest headline rent pressure. That matters because the available relocation budget is only around HKD 100,000, there is no strong local network, and severe depression is a real resilience constraint.
-- The UK now looks more plausible than the last run suggested if the realistic lane is IT support or service-desk-style work. I infer from the official job-count contrast that the UK should not be dismissed if the profile can compete better in IT support than in administration.
-- I still infer that Canada remains the stronger overall fit today, but the reason is narrower: not because the UK lacks a workable route, but because the Canada OWP plus less extreme Toronto rent pressure still looks easier to survive operationally.
+- This matters because the profile has two unusually concrete legal options already in hand or tied to passport status: Canada through the existing OWP and the UK through BN(O). That means the main question is practical survivability, not just formal visa access.
+- Greater Manchester now looks meaningfully more sustainable than London while still offering a visible office-support and IT-support job market on official pages. That makes the UK harder to dismiss than if London were the only realistic landing cluster.
+- Winnipeg still looks calmer on rent than the larger Canadian hubs checked earlier, which matters for a profile with around HKD 100,000 deployable relocation budget, no strong support network, weaker spoken English, and severe depression as a resilience constraint.
+- I still infer that Canada remains the stronger default today, but the margin is narrower than the prior note suggested. The UK BN(O) route now looks more like a parallel fallback option that deserves active comparison rather than a distant backup.
 
 ## Uncertainties
-- The Canada and UK job counts come from different official systems with different indexing and search behavior, so they are useful signals but not perfectly comparable.
-- This run checked Toronto against London because both are major landing markets, but they may not be the best practical first-landing choices for this profile.
-- I did not verify room-rent data or full first-90-day burn this hour using official local sources, so the affordability picture is still incomplete.
-- I did not check lower-cost UK clusters such as Manchester or Birmingham, where the BN(O) route might look stronger on sustainability than in London.
-- I did not check lower-cost Canada clusters such as Winnipeg, Calgary, or Edmonton in this hour's run.
+- The Canada and UK job counts are not directly equivalent. Job Bank here is an occupation page tied to NOC classifications, while Find a Job uses keyword searches. That makes the UK counts directionally useful but not a clean one-to-one comparison.
+- The rent figures are official but not perfectly aligned. Winnipeg comes from CMHC October 2025 rental market survey tables, while Manchester comes from ONS February 2026 private rent estimates.
+- I did not convert GBP and CAD this hour, so I am not treating the raw rent figures as a final affordability verdict against the HKD budget.
+- This run checked one lower-cost cluster in each country only. It did not test Calgary, Edmonton, Birmingham, Leeds, or other plausible first-landing markets.
+- I did not recheck Canadian Experience Class detail pages this hour, so the Canada side of this note should still be read as pathway direction rather than a fresh federal-rule audit.
 
 ## Suggested Next Step
-- Keep the next hourly global scan narrow again. Compare one lower-cost Canada cluster against one lower-cost UK cluster using only three variables: official job counts for administrative support, official job counts for IT support, and official rent indicators.
+- Keep the next global scan narrow again and verify one practical burn-rate comparison with current exchange rates and room-rent or shared-housing indicators for Winnipeg versus Greater Manchester.
 - Best current global fit: Canada + existing Open Work Permit leading toward Canadian Experience Class if skilled work is secured
-- Best current global fit: United Kingdom + British National (Overseas) visa if the practical target lane is IT support rather than office administration
+- Best current global fit: United Kingdom + British National (Overseas) visa with Greater Manchester as a more realistic first cluster than London
