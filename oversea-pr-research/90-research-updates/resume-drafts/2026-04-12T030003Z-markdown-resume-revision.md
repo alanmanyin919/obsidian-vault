@@ -1,6 +1,6 @@
 # markdown-resume-revision update
 
-- checked-on: 2026-04-12T120003Z
+- checked-on: 2026-04-12T130003Z
 - task-id: markdown-resume-revision
 - status: completed
 
@@ -30,29 +30,30 @@
 - `oversea-pr-research/04-job-paths/operations-support.md`
 
 ## What Changed
-- No major workspace change since the earlier 2026-04-12 checks. This run is a dated no-strategy-change confirmation after a broader review of resume-specific notes.
-- The added workspace notes reinforce the same Canada-style resume direction: keep the base draft concise, recruiter-readable, evidence-based, and relevant rather than broad or tool-heavy.
-- The strongest current positioning still comes from an enterprise-applications base story with application-support emphasis, plus operations-support-adjacent value, rather than a developer-first or IT-support-first headline.
-- The safest next rewrite remains structural: tighten the summary, collapse the skills list into a few evidence-backed groups, and lead experience bullets with troubleshooting, API integration, SQL data work, Azure identity integration, documentation, and business-system delivery.
-- The QA-focused note remains useful as a later tailoring option, but it does not add enough new evidence to justify changing the base resume direction for this run.
+- No meaningful strategy change was found between the 2026-04-12T120003Z check and this 2026-04-12T130003Z run. This is a dated no-change confirmation after checking the broader resume workspace again.
+- The workspace still supports one practical base resume built from `resume-reference-copy.md`, not a switch to any role-specific draft as the new source of truth.
+- The role-specific drafts remain useful only as wording experiments. The application-support draft is still the closest to the current strategy, but it contains unsupported claims such as `Tier 2/3`, `MTTR`, `95%+ resolution rate`, and specific tool usage that is not grounded in the reference copy.
+- The IT-support and QA drafts still overreach more than the base direction supports. They introduce help-desk, end-user, networking, training, testing, or bug-tracking claims that are not clearly evidenced in the current source material.
+- The strongest supported base positioning remains enterprise applications with application-support and operations-support-adjacent emphasis: troubleshooting, API integration, SQL data work, Azure identity integration, documentation, and business-system delivery.
+- Canada-style guidance in the workspace still points to the same structural rewrite priorities: shorten the summary, reduce tool sprawl, group skills by function, remove duty-style wording, and keep bullets specific and readable.
 
 ## What Did Not Change
-- `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` remains the safest source of truth for the next markdown rewrite.
-- The role-specific drafts still contain unsupported or weakly supported claims and tools, so they should remain wording experiments rather than source material.
-- No new workspace evidence supports leading the base resume with junior developer, pure IT support, or QA tester positioning.
-- No new workspace evidence supports strong claims about ticket ownership, Tier 2 or Tier 3 support, end-user training, quantified incident reduction, resolution rates, or large-user-scale support.
+- `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` remains the safest working base for the next markdown rewrite.
+- No workspace evidence supports leading the base resume with junior developer, pure IT support, or QA tester positioning.
+- No workspace evidence supports strong claims about `JIRA`, `ServiceNow`, `Azure DevOps`, `Windows Server`, `DNS`, `DHCP`, `VPN basics`, user training, large-user-scale support, or quantified incident metrics.
+- The earlier concern still holds that the current summary and skills sections are too broad and should be tightened before any role-specific tailoring.
 - No stable notes, roadmap items, tracker items, dashboard notes, or source resume files were modified in this run.
 
 ## Relevance To My Situation
-- This keeps the base resume aligned with the job families that currently look most realistic in the workspace: application support first, operations-support-adjacent second, and IT-support-adjacent third.
-- A Canada-style base resume should present practical business-system delivery and troubleshooting value, not an inflated specialist profile or an unfocused full-stack technology list.
-- Staying strict about evidence matters because the current notes support credibility through cross-layer application work, debugging, integration, and documentation more clearly than through support volume metrics or formal help-desk claims.
+- This keeps the base resume aligned with the job families that still look most realistic in the workspace: application support first, operations-support-adjacent second, and IT-support-adjacent third.
+- For Canada-style applications, the more credible story is practical enterprise-system delivery and troubleshooting across frontend, backend, API, database, and Azure-integrated work, not a broad specialist or infrastructure-heavy profile.
+- Staying evidence-only matters because the current notes show stronger support for debugging, integration, and delivery discipline than for formal service desk, pure QA, or pure developer-first positioning.
 
 ## Uncertainties
-- The first actual application track is still not approved, so final headline wording should remain provisional.
-- The summary title is still unresolved: `Software Engineer`, `Application Support`, and a more neutral `Enterprise Applications` framing are all possible, but the workspace still points toward the neutral or support-leaning option for the base version.
-- Some tool and practice claims remain weak or unsupported in the reference copy and should stay out of the base rewrite unless separately verified, including `JIRA`, `ServiceNow`, `Azure DevOps`, `Windows Server`, `DNS`, `DHCP`, `VPN basics`, explicit `Tier 2/3` wording, quantified support metrics, and large-user-scale claims.
-- The reference copy still uses several broad phrases that should be cut or softened in the next rewrite unless better proof is added: `scalable backend services`, `system reliability` as a summary-level claim, `asynchronous and concurrent programming`, `microservices architecture`, `atomic design components`, and `modular programming`.
+- The first approved application track is still unresolved, so final headline wording remains provisional.
+- The best top-line title is still open between a neutral enterprise-applications framing and a support-leaning framing such as application support.
+- Some phrases in the reference copy still need softening or removal unless better proof is added, including `scalable backend services`, `system reliability` as a headline claim, `asynchronous and concurrent programming`, `microservices architecture`, `atomic design components`, and `modular programming`.
+- The workspace still does not resolve whether any honest metrics, production-support scope details, or user-facing support details can be added to strengthen the bullets.
 
 ## Suggested Next Step
-- Draft one evidence-only base markdown resume from `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` with a short enterprise-applications summary, four to five recruiter-readable skill groups, strongest Eastech bullets first, and Arch-Partnership bullets rewritten for delivery, troubleshooting, testing, and documentation without unsupported claims.
+- Draft one evidence-only base markdown resume from `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` with a short enterprise-applications summary, a smaller grouped skills section, Eastech bullets led by troubleshooting and integration work, and Arch-Partnership bullets rewritten for delivery, testing, documentation, and system support without unsupported claims.
