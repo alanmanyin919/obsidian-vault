@@ -1,51 +1,49 @@
 # owp-and-ircc-check update
 
-- checked-on: 2026-04-12T090003Z
+- checked-on: 2026-04-12T120003Z
 - task-id: owp-and-ircc-check
 - status: completed
 
 ## Sources Checked
+- IRCC family-member OWP eligibility page: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children/eligibility.html
 - IRCC notice on family open work permit changes for temporary residents: https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-open-work-permits-family-members-temporary-residents.html
-- IRCC family-member OWP eligibility page, content checked again at 2026-04-12T0900Z: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children/eligibility.html
-- IRCC bridging open work permit page, content checked again at 2026-04-12T0900Z: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/pr-work-permits/bridging.html
-- IRCC TR to PR pathway open work permit page, content checked again at 2026-04-12T0900Z: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/tr-pr-pathway/open-work-permit.html
+- IRCC bridging open work permit page: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/pr-work-permits/bridging.html
+- IRCC TR to PR pathway open work permit page: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/tr-pr-pathway/open-work-permit.html
+- IRCC open work permit page for prospective Manitoba or Yukon PNP candidates with a support letter, page details dated 2026-03-05: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/support-letter.html
 - IRCC 2026 Express Entry priorities announcement, published 2026-02-18: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/02/attracting-the-worlds-best-talent-to-fill-canadas-labour-gaps-and-build-our-economy.html
-- IRCC Express Entry category-based selection page, content checked again at 2026-04-12T0900Z: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html
-- IRCC Express Entry rounds JSON feed used by the official ministerial-instructions pages, checked again at 2026-04-12T0900Z: https://www.canada.ca/content/dam/ircc/documents/json/ee_rounds_4_en.json
+- IRCC Express Entry category-based selection page: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html
 - IRCC Express Entry categories news release, published 2026-02-27: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/02/canada-prioritizes-top-talent-in-2026-immigration-express-entry-categories.html
-- IRCC news release on Quebec worker transition measure, published 2026-03-13: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/03/new-immigration-measure-to-support-quebec-workers-and-employers.html
+- IRCC official Express Entry rounds JSON feed: https://www.canada.ca/content/dam/ircc/documents/json/ee_rounds_4_en.json
+- IRCC Quebec worker transition measure, published 2026-03-13: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/03/new-immigration-measure-to-support-quebec-workers-and-employers.html
 
 ## What Changed
-- No new material federal change was found between the prior 2026-04-12T060003Z run and this 2026-04-12T090003Z run.
-- The latest published Express Entry round in official IRCC data is still 2026-04-02: Trades Occupations, 3,000 invitations, CRS 477.
-- No new Express Entry draw appeared in the official IRCC rounds feed during this check window.
-- The most relevant already-known recent OWP update remains the 2026-03-23 addition allowing spouses of certain workers on significant investment projects in British Columbia to apply under a narrow SIP-specific route.
-- The current federal draw pattern shown on official IRCC data is still the same as the prior run:
-- 2026-03-31: Canadian Experience Class, 2,250 invitations, CRS 509.
-- 2026-03-30: Provincial Nominee Program, 356 invitations, CRS 802.
-- 2026-03-18: French-language proficiency, 4,000 invitations, CRS 393.
-- IRCC’s 2026 priority messaging still points toward in-Canada applicants, CEC, French-language proficiency, healthcare and social services, education, and trades, while the official category page still lists a broader set of categories in force.
+- No new material federal change was found between the prior 2026-04-12T090003Z run and this 2026-04-12T120003Z run.
+- The latest published Express Entry round in the official IRCC feed is still 2026-04-02: Trades Occupations, 3,000 invitations, CRS 477.
+- No new Express Entry draw appeared in the official IRCC feed during this check window.
+- This run adds one relevant official page that should stay in the monitoring baseline: as of 2026-03-05, IRCC has a temporary public policy allowing an open work permit of up to 2 years for prospective Provincial Nominee Program candidates in Manitoba or Yukon who have a provincial or territorial support letter. The page says the measure is open until 2025-12-31.
+- The previously noted March 23, 2026 SIP-specific spouse OWP measure in British Columbia still appears to be a narrow exception, not a broad OWP rule change.
 
 ## What Did Not Change
 - No new broad OWP validity, entry-window, or general usage-rule change was found for most workers since the January 21, 2025 tightening of family-member OWP eligibility.
-- That January 21, 2025 restriction still stands: only spouses of certain foreign workers and students qualify, and dependent children are no longer generally eligible under that family OWP measure.
+- The January 21, 2025 family-member OWP restriction still stands: only select spouses or common-law partners qualify under that measure, and dependent children are no longer generally eligible.
+- The family-member OWP page still says some in-Canada family members can extend an already issued work permit after January 21, 2025 if it was shortened relative to the principal applicant's status, for example because of passport validity.
 - The bridging open work permit route still exists for eligible PR applicants, including Express Entry applicants and eligible provincial nominees. No new restriction affecting ordinary BOWP planning was found on the current official page.
-- The temporary resident to permanent resident pathway open work permit page still says applications can be made until 2026-12-31. No newer extension beyond that date was found.
-- No new IRCC notice or news release was found in this check that changes federal timing, eligibility, or urgency for ordinary OWP holders planning a PR transition.
-- No new general federal PR pathway was announced for ordinary OWP holders. The already-known March 13, 2026 Quebec worker measure remains targeted to eligible Quebec invitees with employer-specific permits and does not appear to create a broad OWP rule change.
+- The TR to PR pathway open work permit page still says applications can be made until December 31, 2026. No newer extension beyond that date was found.
+- IRCC's category-based selection page still lists the current categories as French-language proficiency, healthcare and social services, STEM, trades, education, transport, physicians with Canadian work experience, senior managers with Canadian work experience, researchers with Canadian work experience, and skilled military recruits.
+- No new general federal PR pathway was announced for ordinary OWP holders in this check window.
 
 ## Relevance To My Situation
-- For federal PR planning, the strongest current signal is still that recent invitations continue to favour people already positioned inside Canada through CEC, PNP, French-language ability, or targeted occupation categories.
-- If the plan depends on using an OWP and then transitioning to PR, there is still no newly found broad federal shortcut. The practical path still appears to depend on getting Canadian work experience, improving CRS, or fitting a category-based lane.
-- The latest official position still suggests urgency for anyone who could qualify under CEC, French-language, trades, or another targeted category, but there is still no sign of a new low-barrier federal pathway for generic OWP holders.
-- If the plan is outside Quebec, the March 13 Quebec measure does not materially improve the baseline. If the plan is in Quebec and tied to an eligible employer-specific permit plus a Quebec invitation, it could matter, but it is not a general OWP benefit.
+- For ordinary OWP-to-PR planning, there is still no newly found broad federal shortcut. The practical path still appears to be Canadian work experience, CRS improvement, provincial nomination, French-language gains, or fitting a targeted category.
+- The Manitoba-or-Yukon support-letter OWP policy matters only if the plan becomes province-specific and reaches the point of getting that province or territory to issue a support letter. It is useful but narrow, not a general federal rule improvement.
+- The current federal draw pattern still favours people already positioned inside Canada through CEC, PNP, French-language ability, or a targeted occupation category.
+- The Quebec worker measure remains targeted and does not materially improve the baseline for a non-Quebec plan.
 
 ## Uncertainties
-- The 2026 priority announcement emphasized some categories, but the current category-selection page still lists additional categories such as STEM, transport, physicians, senior managers, researchers, and skilled military recruits. IRCC may continue using a broader set of categories than the February announcement alone suggests.
-- The new SIP-related spouse OWP measure appears narrow and likely irrelevant unless the move plan specifically involves a qualifying British Columbia significant investment project.
-- No new official federal change was found in this run for ordinary OWP holders on entry windows or validity rules beyond the items above, but ministerial instructions and draw timing can still change quickly.
-- The 2026-2028 levels-plan language about accelerating some work permit holders to PR has not, in the sources checked here, produced a new broad federal public pathway page for ordinary OWP holders. That could still turn into later operational changes.
+- IRCC's 2026 priority messaging emphasized in-Canada applicants, CEC, French-language ability, healthcare and social services, education, and trades, but the category-selection page still lists additional categories in force. IRCC may continue using a broader set of categories than the priority messaging alone suggests.
+- The Manitoba-or-Yukon support-letter OWP public policy is operationally relevant only if the provinces keep issuing support letters in practice; this run checked the IRCC federal page, not current provincial issuance behavior.
+- The SIP-specific spouse OWP route appears narrow and likely irrelevant unless the move plan involves a qualifying significant investment project in British Columbia.
+- Draw timing and ministerial instructions can still change quickly even when no change appears in a 3-hour check window.
 
 ## Suggested Next Step
 - Keep using the current baseline assumption that PR timing is most likely to improve through CEC, PNP, French-language gains, or a targeted category rather than from any new general OWP policy change.
-- On the next scheduled check, watch for another Express Entry draw after 2026-04-02 and for any new IRCC notice changing BOWP, family-member OWP rules, or any operational follow-up to the stated plan to accelerate some work permit holders to PR.
+- On the next scheduled check, watch for any new Express Entry draw after 2026-04-02 and for any new IRCC notice affecting BOWP, family-member OWP rules, or operational follow-up to the stated plan to accelerate some work permit holders to PR.
