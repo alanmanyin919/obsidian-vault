@@ -123,6 +123,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 - sources:
   - Official immigration or migration program pages from target countries
   - Official skilled migration, work visa, residency, or shortage occupation pages
+  - Official UK immigration or BN(O)-relevant route pages when British nationality or passport status may materially change the pathway options
   - Reputable legal or migration summaries only when official pages are unclear
 - objective:
   - Identify the most suitable migration pathways worldwide for this profile, with a practical focus on realistic routes rather than aspirational options
@@ -131,6 +132,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Prioritize countries with clearer work-to-residency, skilled migration, shortage occupation, or lower-barrier settlement routes
   - Consider language, cost, job-market realism, health and mental sustainability, and pathway concreteness
   - Treat Canada as one option among several, not the automatic default
+  - Explicitly consider the United Kingdom whenever BNO or British passport status may create a distinct route that would not apply to other profiles
 - required-output:
   - Countries Reviewed This Run
   - Most Relevant Pathway Per Country
@@ -156,6 +158,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Do not turn one run into a full world survey. Keep each run narrow and reviewable.
   - Do not rank countries based only on visa availability. Include practical employability and sustainability.
   - Use official pages as the source of truth for eligibility details.
+  - Do not omit the United Kingdom if British nationality, BNO status, or passport-based eligibility could materially affect the analysis.
   - Keep scheduled outputs in this folder only. Do not write directly into stable planning notes.
 
 ### Task: markdown-resume-revision
