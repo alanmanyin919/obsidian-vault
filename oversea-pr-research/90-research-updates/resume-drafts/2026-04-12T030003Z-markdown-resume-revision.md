@@ -1,6 +1,6 @@
 # markdown-resume-revision update
 
-- checked-on: 2026-04-12T040003Z
+- checked-on: 2026-04-12T050003Z
 - task-id: markdown-resume-revision
 - status: completed
 
@@ -12,13 +12,11 @@
 - `oversea-pr-research/03-regular-tasks.md`
 - Previous task note: `oversea-pr-research/90-research-updates/resume-drafts/2026-04-12T030003Z-markdown-resume-revision.md`
 - `oversea-pr-research/01-core/01-documents/resume-reference-copy.md`
-- `oversea-pr-research/07-resume/00-resume-revision-dashboard.md`
 - `oversea-pr-research/07-resume/01-resume-source/alan-resume-working-copy-2026-03-23.md`
 - `oversea-pr-research/07-resume/01-resume-source/alan-resume-app-support-v1.md`
 - `oversea-pr-research/07-resume/01-resume-source/alan-resume-it-support-v1.md`
 - `oversea-pr-research/07-resume/01-resume-source/alan-resume-qa-tester-v1.md`
 - `oversea-pr-research/07-resume/01-resume-source/alan-resume-developer-v1.md`
-- `oversea-pr-research/07-resume/02-cv-investigation/canada-resume-expectations.md`
 - `oversea-pr-research/07-resume/02-cv-investigation/target-role-resume-strategy.md`
 - `oversea-pr-research/07-resume/03-revision-notes/alan-resume-review-2026-03-23.md`
 - `oversea-pr-research/07-resume/03-revision-notes/proposed-resume-improvements.md`
@@ -30,26 +28,26 @@
 
 ## What Changed
 - No meaningful resume-content change was justified in this run.
-- Rechecked the latest scheduled note first and confirmed it already captured the current evidence-backed base-resume direction.
-- Rechecked the workspace for newer resume, CV, and job-path notes and found no newer material after the earlier `2026-04-12T030003Z` draft that would support a stronger rewrite.
-- Confirmed the practical base direction still holds: keep the resume centered on application-support, IT-support, and operations-support-adjacent positioning rather than forcing a junior-developer-first version.
+- Rechecked the latest scheduled note first and confirmed the current base direction still matches the workspace evidence.
+- Rechecked the default markdown reference copy against the older working copy and role-specific drafts, and the same pattern held: the safest base resume is still the broader support-and-delivery version rather than a narrowly tailored developer-first resume.
+- Confirmed again that several stronger-looking bullets in the role-specific drafts remain unsupported by the reference copy or revision notes, so they still should not be promoted into the working draft without proof.
 
 ## What Did Not Change
-- The base recommendation did not change from the prior draft: keep one broad support-and-delivery resume first, then tailor later.
-- The main wording constraints did not change: avoid unsupported claims about ticketing tools, production ownership level, user training, certifications, metrics, or specific technologies not clearly backed by the source material.
-- The unresolved revision gaps did not change: target-role choice is still not finalized, and the strongest missing upgrade is still evidence such as scope, outcomes, and support ownership details.
-- No source resume files, roadmap notes, tracker notes, or stable planning notes were modified.
+- The recommended emphasis did not change: keep the base resume aligned to application support, IT support, and operations-support-adjacent work before any deeper role-specific tailoring.
+- The main rewrite priorities did not change: tighten the summary, reduce broad skill noise, remove duty-style wording, and strengthen bullets only where the source material clearly supports the claim.
+- The evidence gaps did not change: there is still no safely confirmed detail for measurable outcomes, user scale, incident ownership, release coordination scope, or support queue / ticket ownership.
+- No source resume files, roadmap notes, progress tracker notes, or other stable planning notes were modified.
 
 ## Relevance To My Situation
-- This remains aligned with the most realistic job families already tracked in the workspace, where support-oriented technical roles look more defensible than a pure junior developer pitch.
-- For Canada-style applications, the safest improvement path is still clearer writing, stronger bullet discipline, and narrower claims rather than adding more tools or broader positioning.
-- Keeping the base resume practical and evidence-backed should make later tailoring easier once the first live target family is chosen.
+- This still matches the most realistic target job families already tracked in the workspace, where support-oriented technical roles appear more defensible than a junior-developer-first strategy.
+- For Canada-style applications, the stronger move is still to present a clean, evidence-backed resume with direct wording and credible scope instead of a broader but weaker claim set.
+- Keeping the base version practical should make later tailoring easier once one live application family is chosen.
 
 ## Uncertainties
-- It is still unclear whether the first live application track should be application support, IT support, or another support-adjacent role.
-- The resume still lacks safely confirmed evidence for stronger bullets, especially measurable outcomes, system scale, user scope, incident ownership, and release or reliability impact.
-- The work-authorization wording appears in some workspace drafts but not in the default markdown reference copy, so final placement should be rechecked before using the resume in applications.
-- Some role-specific drafts include tools or claims such as `JIRA`, `ServiceNow`, `Azure DevOps`, `Windows Server`, `DNS`, `DHCP`, `VPN basics`, `FastAPI`, and quantified support results that are not consistently supported across the source notes.
+- It is still unclear which target family should be used first for live applications: application support, IT support, or another support-adjacent role.
+- The role-specific drafts still contain claims or tools that are not consistently supported by the base source materials, including `JIRA`, `ServiceNow`, `Azure DevOps`, `Windows Server`, `DNS`, `DHCP`, `VPN basics`, ticket-level ownership, user training, knowledge-base ownership, quantified incident results, and explicit Tier 2/3 framing.
+- The resume still lacks confirmed facts that would enable materially stronger bullets, especially around outcomes, supported users or teams, production support scope, and business impact.
+- Work-authorization wording exists in some workspace drafts but not in the default markdown reference copy, so final placement and phrasing still need a later decision.
 
 ## Suggested Next Step
-- Produce one narrowed base-resume revision against a single target family first, preferably application support or IT support, using only evidence-backed wording from the current source resume and notes.
+- Create one evidence-only base rewrite directly from `resume-reference-copy.md`, keeping support-and-delivery emphasis but removing unsupported role-specific claims, then decide whether the first real tailoring pass should target application support or IT support.

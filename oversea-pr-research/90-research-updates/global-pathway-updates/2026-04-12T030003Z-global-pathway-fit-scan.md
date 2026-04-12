@@ -1,49 +1,52 @@
 # global-pathway-fit-scan update
 
-- checked-on: 2026-04-12T040003Z
+- checked-on: 2026-04-12T050003Z
 - task-id: global-pathway-fit-scan
 - status: completed
 
 ## Sources Checked
 - UK Home Office, Hong Kong British National (Overseas) visa: https://www.gov.uk/british-national-overseas-bno-visa
+- UK Home Office, Hong Kong British National (Overseas) visa costs: https://www.gov.uk/british-national-overseas-bno-visa/how-much-it-costs
 - UK Home Office, Skilled Worker visa: https://www.gov.uk/skilled-worker-visa
 - Canada IRCC, Canadian Experience Class: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html
+- Canada IRCC, Express Entry 2026 category announcement: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/02/canada-prioritizes-top-talent-in-2026-immigration-express-entry-categories.html
+- Canada IRCC, Open work permits: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/open-work-permit.html
 - Germany Make it in Germany, EU Blue Card: https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card
 - Germany Make it in Germany, IT professionals with practical knowledge: https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/admission-labour-market/it-professionals
 - Workspace baseline note, personal profile: [[oversea-pr-research/01-core/01-personal-profile]]
 
 ## What Changed
-- This run corrected the shortlist by checking the United Kingdom explicitly, because the profile note shows both an HKSAR passport and a BNO passport.
-- The UK BN(O) route is now the clearest non-Canada pathway found so far for this profile because it is not job-offer-led at entry. Officially, the route is for a BN(O) citizen aged 18 or over, ordinarily living in Hong Kong or the UK, with proof of funds unless exempt, and it can lead to settlement after 5 years.
-- This materially changes the global comparison: the UK is no longer just a generic skilled-worker market check. It is a distinct residence route tied to passport status, which makes it more concrete than Germany or New Zealand for initial entry.
-- Canada still remains the strongest practical option for low-friction near-term entry because the profile already has a valid Canada OWP until 2029-01-27, but the UK now looks like the strongest backup pathway if Canada job landing remains too weak or too chaotic.
-- Germany still looks employer-led rather than access-led. The official routes checked remain viable mainly after securing a qualifying job offer, either through the EU Blue Card or, for some IT cases, through Germany's IT professional route based on practical experience and salary thresholds.
+- No new official rule change was found in this hourly check for the UK BN(O) route, UK Skilled Worker route, or Canada CEC core eligibility.
+- The practical comparison is clearer after checking current official pages again: Canada is still stronger on immediate entry access because the profile already holds a valid Canada OWP, but the UK BN(O) route is still the cleaner residence pathway because it allows work and study without needing employer sponsorship at entry and still points to settlement after 5 years.
+- This run adds one material Canada-side caution. IRCC's 2026 Express Entry categories continue CEC draws, but the announced category priorities do not obviously match this profile's likely lanes such as application support, IT support, QA, or junior developer work. I infer from that that Canada remains concrete for entry, but not obviously stronger than the UK on long-run pathway fit unless Canadian work experience is actually secured.
+- The UK BN(O) cost picture is now more explicit in the comparison. Officially, a 5-year BN(O) application currently costs GBP 285 plus a GBP 5,175 healthcare surcharge per adult, and first-time applicants must show enough support funds for 6 months. That does not remove the route, but it makes the early-budget burden more concrete.
 
 ## What Did Not Change
 - Canada still requires actual skilled Canadian work experience plus language results for the clearest PR route through CEC. The OWP is still an access advantage, not a PR outcome by itself.
 - The UK Skilled Worker route is still employer-sponsored and does not become attractive just because the UK exists as an option. For this profile, BN(O) is the relevant UK route, not Skilled Worker as the main entry plan.
+- The UK BN(O) route still requires the applicant's permanent home to be in Hong Kong when applying from outside the UK, still usually blocks access to most public funds, and still leads to settlement only after 5 years.
 - Germany still does not look like a low-chaos option without a real job offer and enough salary leverage.
 - No official source checked in this run showed a new global pathway that is clearly easier than Canada OWP access or UK BN(O) access for this specific profile.
 
 ## Relevance To My Situation
-- The biggest practical global advantage in this profile is now clearer: I already have two concrete access routes that many applicants do not have, Canada OWP and UK BN(O). That matters more than generic skilled-migration marketing pages.
-- Canada remains stronger if the goal is fastest low-friction entry into a familiar English-speaking environment where work authorization is already secured. The main risk is still employability after arrival, especially spoken English, weak network, limited deployable budget, and mental-health sustainability.
-- The UK BN(O) route may be more structurally forgiving than Germany because it removes the first employer-sponsorship barrier. That could make it a more sustainable backup if I need a route where I can enter first and job-search after landing, assuming housing and cost pressure are still manageable.
-- Germany remains a possible but weaker backup for software or application-support work because the route is more concrete only after being hired.
-- Provisional fit levels for this run:
+- The biggest practical global advantage is still passport and permit access rather than points-based competitiveness: this profile has both a valid Canada OWP and BNO passport status.
+- Canada remains the best low-friction entry option because work authorization is already in hand through 2029-01-27, but the pathway to PR is still employment-dependent and test-dependent. With no English test yet and no Canadian skilled work experience yet, Canada is still concrete only if job landing actually happens.
+- The UK BN(O) route now looks slightly stronger than Canada on pathway clarity alone, because it is not tied to a qualifying employer or Express Entry category fit at entry. Its main weakness is practical sustainability: upfront cost, rent pressure, job competition, weak support network, and mental-health risk.
+- Germany remains a possible but weaker backup for software or application-support work because the route is still more concrete only after hiring.
+- Provisional fit levels after this run:
 - Canada + Canadian Experience Class pathway stack: more concrete
 - United Kingdom + BN(O) visa route: more concrete
 - Germany + EU Blue Card or IT professional route: possible but weak
 
 ## Uncertainties
-- I have not checked this run whether the UK BN(O) route is emotionally or financially sustainable in practice given current rent, job competition, and support-network weakness.
-- I have not checked whether the profile still fully meets every BN(O) document requirement right now, including passport validity and funds evidence.
+- I have not checked in this run whether current UK or Canada job-market conditions are better for application support, IT support, QA, or junior developer roles.
+- I have not checked whether the current deployable budget is enough for a realistic UK BN(O) move once visa fees, healthcare surcharge, deposit, and rent are included.
 - I still do not have a current English test result, so Canada PR competitiveness remains unverified even though Canada entry access is strong.
-- I have not checked whether UK job-market fit for application support, IT support, QA, or junior development is materially better or worse than Canada for this profile.
+- I have not checked whether this profile's passport validity, document readiness, and funds evidence are already sufficient for a clean BN(O) application.
 - Germany may still be harder in practice than it looks on paper if language and employer preference sharply reduce realistic hiring odds.
 
 ## Suggested Next Step
-- On the next global scan, do a narrow Canada vs UK comparison only: compare practical employability, entry cost, early survival pressure, and work-to-settlement realism for this profile instead of checking more countries again.
+- On the next global scan, keep the scope to Canada vs UK only and verify one practical layer rather than more visa pages: compare realistic budget burn, early-month housing pressure, and current entry-level employability for the target job lanes.
 - Best current global fit: Canada + Canadian Experience Class
 - Best current global fit: United Kingdom + Hong Kong British National (Overseas) visa
 - Best current global fit: Germany + EU Blue Card
