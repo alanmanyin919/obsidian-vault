@@ -1,52 +1,53 @@
 # global-pathway-fit-scan update
 
-- checked-on: 2026-04-12T050003Z
+- checked-on: 2026-04-12T060003Z
 - task-id: global-pathway-fit-scan
 - status: completed
 
 ## Sources Checked
-- UK Home Office, Hong Kong British National (Overseas) visa: https://www.gov.uk/british-national-overseas-bno-visa
-- UK Home Office, Hong Kong British National (Overseas) visa costs: https://www.gov.uk/british-national-overseas-bno-visa/how-much-it-costs
-- UK Home Office, Skilled Worker visa: https://www.gov.uk/skilled-worker-visa
-- Canada IRCC, Canadian Experience Class: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html
-- Canada IRCC, Express Entry 2026 category announcement: https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/02/canada-prioritizes-top-talent-in-2026-immigration-express-entry-categories.html
-- Canada IRCC, Open work permits: https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/open-work-permit.html
-- Germany Make it in Germany, EU Blue Card: https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card
-- Germany Make it in Germany, IT professionals with practical knowledge: https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/admission-labour-market/it-professionals
-- Workspace baseline note, personal profile: [[oversea-pr-research/01-core/01-personal-profile]]
+- Personal baseline note: [[oversea-pr-research/01-core/01-personal-profile]]
+- Canada Job Bank, Office Administrative Assistant in Canada, job prospects: https://www.jobbank.gc.ca/marketreport/outlook-occupation/25599/ca
+- Canada Job Bank, Office Administrative Assistant in Canada, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/25599/ca
+- Canada Job Bank, User Support Technician in Canada, available jobs: https://www.jobbank.gc.ca/marketreport/jobs/3772/ca
+- Canada Job Bank, Information systems testing technicians near Toronto, job prospects: https://www.jobbank.gc.ca/marketreport/outlook-occupation/3954/22437
+- Statistics Canada, Job vacancies, fourth quarter 2025: https://www150.statcan.gc.ca/n1/daily-quotidien/260317/dq260317a-eng.htm
+- CMHC, Canada’s vacancy rate rises amid historically high rental construction: https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/canadas-vacancy-rate-rises-amid-historically-high-rental-construction
+- GOV.UK, British National (Overseas) visa overview: https://www.gov.uk/british-national-overseas-bno-visa
+- GOV.UK, British National (Overseas) visa settlement: https://www.gov.uk/british-national-overseas-bno-visa/settle-in-the-uk
+- GOV.UK, Hong Kong BN(O) Welcome Programme guidance: https://www.gov.uk/guidance/hong-kong-uk-welcome-programme-guidance-for-local-authorities
+- GOV.UK, Exploring the experiences of Hong Kongers, including BN(O)s, living in the UK: https://www.gov.uk/government/publications/exploring-the-experiences-of-hong-kongers-including-bnos-living-in-the-uk/exploring-the-experiences-of-hong-kongers-including-bnos-living-in-the-uk
+- GOV.UK, Skilled Worker visa eligible occupations and codes: https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations/skilled-worker-visa-eligible-occupations-and-codes
+- ONS, Private rent and house prices, UK: March 2026: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/march2026
+- ONS, Labour market overview, UK: March 2026: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/march2026
 
 ## What Changed
-- No new official rule change was found in this hourly check for the UK BN(O) route, UK Skilled Worker route, or Canada CEC core eligibility.
-- The practical comparison is clearer after checking current official pages again: Canada is still stronger on immediate entry access because the profile already holds a valid Canada OWP, but the UK BN(O) route is still the cleaner residence pathway because it allows work and study without needing employer sponsorship at entry and still points to settlement after 5 years.
-- This run adds one material Canada-side caution. IRCC's 2026 Express Entry categories continue CEC draws, but the announced category priorities do not obviously match this profile's likely lanes such as application support, IT support, QA, or junior developer work. I infer from that that Canada remains concrete for entry, but not obviously stronger than the UK on long-run pathway fit unless Canadian work experience is actually secured.
-- The UK BN(O) cost picture is now more explicit in the comparison. Officially, a 5-year BN(O) application currently costs GBP 285 plus a GBP 5,175 healthcare surcharge per adult, and first-time applicants must show enough support funds for 6 months. That does not remove the route, but it makes the early-budget burden more concrete.
+- This run stayed narrow and shifted from visa-page rechecking to the practical question left open in the previous note: whether Canada or the UK currently looks more workable on employability and sustainability.
+- Canada now looks stronger than the UK on immediate job-landing realism for the lower-barrier lanes that are closest to this profile. Official Job Bank pages currently show 716 office administrative assistant postings across Canada, with `Moderate` or `Good` outlooks in every province listed, and 68 user support technician postings nationally. Statistics Canada also reported that job vacancies rose in business, finance and administration occupations in Q4 2025.
+- Canada still looks mixed for the more technical lanes. Job Bank shows a `Limited` 2025-2027 outlook for information systems testing technicians in the Toronto region, so QA/testing should not be treated as an easy landing lane.
+- The UK BN(O) route remains strong on legal pathway clarity, but this run makes the employment and adaptation risks more explicit. ONS says UK vacancies were broadly flat and slightly down to 721,000 in the December 2025 to February 2026 period. The UK government’s own 2025 research on Hong Kongers in the UK says lower English proficiency made employment, progression, service access, and social integration harder, and some participants reported taking lower-paid or lower-level work than in Hong Kong.
+- UK sustainability also looks more clearly pressured by housing costs than before. ONS reports average UK monthly private rent at GBP 1,374 in February 2026. The BN(O) Welcome Programme still offers support, but the current local-authority English and destitution funding is time-limited through 31 March 2026, with mainstream Adult Skills Fund access and the STEP employment-language programme doing part of the follow-on support.
 
 ## What Did Not Change
-- Canada still requires actual skilled Canadian work experience plus language results for the clearest PR route through CEC. The OWP is still an access advantage, not a PR outcome by itself.
-- The UK Skilled Worker route is still employer-sponsored and does not become attractive just because the UK exists as an option. For this profile, BN(O) is the relevant UK route, not Skilled Worker as the main entry plan.
-- The UK BN(O) route still requires the applicant's permanent home to be in Hong Kong when applying from outside the UK, still usually blocks access to most public funds, and still leads to settlement only after 5 years.
-- Germany still does not look like a low-chaos option without a real job offer and enough salary leverage.
-- No official source checked in this run showed a new global pathway that is clearly easier than Canada OWP access or UK BN(O) access for this specific profile.
+- No new official rule change was found in this run for Canada CEC core eligibility or the UK BN(O) route itself.
+- Canada still has the strongest low-friction entry position for this profile because the OWP is already valid through 2029-01-27. That remains an access advantage, not a PR result by itself.
+- The UK BN(O) route still remains the clearest UK residence pathway for this profile because it allows work and study without employer sponsorship at entry and still leads toward settlement after 5 years.
+- The UK Skilled Worker route still does not become the main UK plan for this profile. Some target lanes remain eligible on paper, including software developers, IT quality and testing professionals, IT operations technicians, and IT user support technicians, but the profile would still need a sponsoring employer. Administrative roles are more mixed, with some occupations marked `Medium Skilled` and others `Ineligible`, so sponsorship should not be assumed for office-support work.
+- No official source checked in this run showed a clearly easier global pathway than Canada OWP access or UK BN(O) access for this profile.
 
 ## Relevance To My Situation
-- The biggest practical global advantage is still passport and permit access rather than points-based competitiveness: this profile has both a valid Canada OWP and BNO passport status.
-- Canada remains the best low-friction entry option because work authorization is already in hand through 2029-01-27, but the pathway to PR is still employment-dependent and test-dependent. With no English test yet and no Canadian skilled work experience yet, Canada is still concrete only if job landing actually happens.
-- The UK BN(O) route now looks slightly stronger than Canada on pathway clarity alone, because it is not tied to a qualifying employer or Express Entry category fit at entry. Its main weakness is practical sustainability: upfront cost, rent pressure, job competition, weak support network, and mental-health risk.
-- Germany remains a possible but weaker backup for software or application-support work because the route is still more concrete only after hiring.
-- Provisional fit levels after this run:
-- Canada + Canadian Experience Class pathway stack: more concrete
-- United Kingdom + BN(O) visa route: more concrete
-- Germany + EU Blue Card or IT professional route: possible but weak
+- The profile still has two unusually concrete access advantages: a valid Canada OWP and BN(O) status. This run suggests the better option depends less on immigration eligibility and more on which country is more survivable during the first job-search stage.
+- Canada currently looks stronger for immediate practicality. Work authorization is already in hand, official labour-market pages show more visible openings in administrative support than in QA/testing, and Canada housing pressure appears to have loosened somewhat compared with 2024 because CMHC says the national purpose-built rental vacancy rate rose to 3.1% in 2025.
+- The UK still looks cleaner as a residence route on paper, but the official UK evidence is less reassuring on early employability for this exact profile. Weak spoken English, no strong local support network, depression risk, and limited deployable budget matter more in a market where overall vacancies are flat and the government’s own BN(O)-community research says language barriers can directly slow employment and progression.
+- I infer from the official sources that Canada is currently the stronger practical fit if the near-term goal is to get into work with the least immigration friction, while the UK BN(O) route remains the stronger backup if route clarity is prioritized and first-year cost pressure can be absorbed.
 
 ## Uncertainties
-- I have not checked in this run whether current UK or Canada job-market conditions are better for application support, IT support, QA, or junior developer roles.
-- I have not checked whether the current deployable budget is enough for a realistic UK BN(O) move once visa fees, healthcare surcharge, deposit, and rent are included.
-- I still do not have a current English test result, so Canada PR competitiveness remains unverified even though Canada entry access is strong.
-- I have not checked whether this profile's passport validity, document readiness, and funds evidence are already sufficient for a clean BN(O) application.
-- Germany may still be harder in practice than it looks on paper if language and employer preference sharply reduce realistic hiring odds.
+- I did not check direct UK role-by-role vacancy counts in this run for office support, IT support, QA, or junior developer work, so the UK employability side is still less concrete than the Canada side.
+- I did not narrow Canada to specific cities or provinces in this run, so national Canada signals may still overstate practical fit if only expensive markets are realistic.
+- I did not rework the full first-year budget this hour, so I still have not tested whether UK BN(O) fees plus initial rent and deposit pressure fit safely inside the current deployable budget.
+- I still do not have a current English test result or fresh interview-readiness check, which matters for both countries even if Canada has the better immediate access position.
+- The UK qualitative research is official and useful, but it is still qualitative and not a role-by-role labour-market measure.
 
 ## Suggested Next Step
-- On the next global scan, keep the scope to Canada vs UK only and verify one practical layer rather than more visa pages: compare realistic budget burn, early-month housing pressure, and current entry-level employability for the target job lanes.
-- Best current global fit: Canada + Canadian Experience Class
+- Keep the next hourly global scan narrow again. Compare one realistic Canada landing cluster against one realistic UK BN(O) landing cluster on three concrete variables only: room rent, total first-90-day burn, and current official job counts for office support plus IT support.
+- Best current global fit: Canada + existing Open Work Permit leading to Canadian Experience Class if skilled work is secured
 - Best current global fit: United Kingdom + Hong Kong British National (Overseas) visa
-- Best current global fit: Germany + EU Blue Card
