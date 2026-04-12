@@ -1,6 +1,6 @@
 # global-pathway-fit-scan update
 
-- checked-on: 2026-04-12T130003Z
+- checked-on: 2026-04-12T140003Z
 - task-id: global-pathway-fit-scan
 - status: completed
 
@@ -11,37 +11,44 @@
 - GOV.UK, British National (Overseas) visa documents: https://www.gov.uk/british-national-overseas-bno-visa/documents-youll-need-to-apply
 - GOV.UK, British National (Overseas) visa costs: https://www.gov.uk/british-national-overseas-bno-visa/how-much-it-costs
 - GOV.UK, British National (Overseas) visa settlement: https://www.gov.uk/british-national-overseas-bno-visa/settle-in-the-uk
-- GOV.UK Find a Job, Greater Manchester admin jobs: https://findajob.dwp.gov.uk/search?cat=2&cty=permanent&f=14&loc=86397
-- GOV.UK Find a Job, Greater Manchester IT jobs: https://findajob.dwp.gov.uk/search?adv=1&cat=14&cti=full_time&f=30&loc=86397&p=3&sb=date&sd=down
-- Job Bank, Administrative Assistant in the Winnipeg Region | Job prospects: https://www.jobbank.gc.ca/marketreport/outlook-occupation/24789/geo11326
-- Job Bank, User Support Technician in the Winnipeg Region | Labour Market Facts and Figures: https://www.jobbank.gc.ca/marketreport/summary-occupation/3772/geo11326
+- GOV.UK, Home Office immigration and nationality fees, 8 April 2026: https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-april-2026
+- Australia Department of Home Affairs, SkillSelect expression of interest: https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/expression-of-interest
+- Australia Department of Home Affairs, temporary work visas: https://immi.homeaffairs.gov.au/visas/working-in-australia/temporary-work-visas
+- Australia Department of Home Affairs, skilled occupation list: https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list
+- Australia Department of Home Affairs, Core Skills Occupation List PDF: https://immi.homeaffairs.gov.au/Documents/core-sol.pdf
+- Jobs and Skills Australia, 2025 Occupation Shortage List summary: https://www.jobsandskills.gov.au/news/shortages-ease-gaps-persist-2025-occupation-shortage-list
+- Jobs and Skills Australia, 2025 Occupation Shortage Report: https://www.jobsandskills.gov.au/download/19894/occupation-shortage-report-september-2025/3825/occupation-shortage-report-september-2025/pdf
 
 ## What Changed
-- No material pathway-rule change was found on this run for either Canada CEC or the UK BN(O) route.
-- The UK BN(O) cost detail should be updated from the earlier note: the official GOV.UK fee page now shows a 5-year visa application fee of GBP 285 per adult, with the 5-year immigration health surcharge still at GBP 5,175 per adult.
-- The BN(O) route looks slightly more concrete at the document level than the prior note showed. GOV.UK confirms a current or expired BNO passport can be used to show BNO status, and even if no BNO passport is available, the Home Office can check status, though a decision may take longer.
-- The main UK blocker is still not eliminated. The official documents page still requires evidence of residence, funds, and a TB certificate when applicable, so practical usability still depends on the personal document chain and cash position rather than route availability alone.
+- No material rule change was found on this run for Canada CEC itself. IRCC still requires at least 1 year or 1,560 hours of paid TEER 0 to 3 work in Canada within the last 3 years, gained while authorized to work, and remote work counts only if the person was physically in Canada while working for a Canadian employer.
+- No material route change was found on this run for the UK BN(O) pathway itself. GOV.UK still shows that the route allows work and study and still leads to settlement after 5 continuous years in the UK.
+- The UK fee picture is still messy and needs to be handled carefully. As of 2026-04-12, the route guidance page still shows GBP 268 for a 5-year BN(O) application, but the Home Office fee table says the 5-year BN(O) fee became GBP 285 from 2026-04-08. The surcharge page still shows GBP 5,175 per adult for 5 years. The safe reading is that the fee increase is real and the route guide may simply be lagging.
+- Australia was added as the third-country comparator for this run. The current official picture still looks weaker than Canada and a real BN(O) route because the main realistic Australian lanes are either employer-sponsored `Skills in Demand visa (subclass 482)` or points-tested invited pathways such as subclass 189.
+- Australia is not a clean admin-support alternative for this profile. In the current Core Skills Occupation List, ICT support occupations such as `ICT Customer Support Officer` and `ICT Support Technicians nec` appear, but plain administrative support roles were not found on that list in this check.
+- Australia also looks less favorable on near-term employability for an office-support or general IT-support profile than the pathway label alone suggests. Jobs and Skills Australia says shortages eased to 29% of occupations in 2025, and the 2025 Occupation Shortage Report says a large share of ICT occupations shifted to no-shortage conditions.
 
 ## What Did Not Change
-- Canada remains the more concrete pathway only if existing Canadian work rights are real and usable now. IRCC still requires at least 1 year of authorized skilled Canadian work experience in TEER 0, 1, 2, or 3 work within the last 3 years for CEC.
-- CEC still does not become easier through remote work done outside Canada. IRCC still says remote work counts only if the person was physically in Canada and working for a Canadian employer while authorized to work.
-- The UK BN(O) route still remains concrete only if BN(O) status or the eligible adult-child route actually applies. GOV.UK still limits the main route to a BNO national or the child of a BNO national born on or after 1 July 1979.
-- The BN(O) route still allows work and study and still leads toward settlement after 5 continuous years in the UK.
-- The employability signal in this narrow run is still broadly the same: Winnipeg admin support remains more plausible than Winnipeg user support, while Greater Manchester still shows a broader official vacancy count for both admin and IT categories than the Winnipeg occupation pages used here.
+- Canada still looks like the most concrete option only if existing Canadian work rights are real, usable, and can lead to qualifying TEER 0 to 3 employment soon enough to build CEC-eligible experience.
+- Canada still does not become easier through remote work done outside Canada.
+- The UK BN(O) route still remains concrete only if BN(O) status or the adult-child route really applies and the residence, funds, and TB-document chain can actually be shown.
+- The UK BN(O) route still allows work and still leads toward settlement after 5 years, so it remains a structurally strong route if the status and document side is real.
+- Australia still does not look like an easier fallback than Canada or the UK in this narrow run. Its practical routes remain either employer-linked or points-and-invitation dependent.
 
 ## Relevance To My Situation
-- This is still mainly a Canada-versus-UK comparison, not a broad global shortlist.
-- Canada still looks more financially survivable than the UK in general planning terms if current Canadian work rights can actually be used to get qualifying work quickly.
-- The UK BN(O) route now looks a bit less speculative on status proof than before because an expired BNO passport can still be used and lack of a passport does not automatically end the route. That matters if passport status was the main uncertainty.
-- The UK route still carries a heavy upfront cash barrier and still depends on proving residence and financial support, so it is not automatically the easier practical move even if status eligibility exists.
-- Best current global fit: Canada + existing work rights leading toward Canadian Experience Class if qualifying TEER 0 to 3 work is secured
+- This run stayed narrow and reviewable: Canada, United Kingdom, and Australia only.
+- Canada remains the strongest practical route if Canadian work authorization is already available and can be converted into qualifying paid TEER 0 to 3 work in Canada. That is still the most concrete work-to-PR logic in this shortlist.
+- The United Kingdom remains the strongest passport-status route in this shortlist if BN(O) eligibility is real. It is still unusually flexible because it permits work broadly and leads to settlement, but the document burden and upfront cash burden remain serious.
+- Australia now looks more like a possible but weak comparator than a best-fit option for this profile. That is an inference from the official sources: the likely routes are more selective, more employer-dependent, or more occupation-list dependent, and the current official labour-market signal for ICT is softer than the pathway label alone suggests.
+- Best current global fit: Canada + existing work rights leading toward Canadian Experience Class if qualifying TEER 0 to 3 work is secured in Canada
 - Best current global fit: United Kingdom + British National (Overseas) visa
+- Best current global fit: Australia + Skills in Demand visa (subclass 482) only if a real employer sponsor and occupation-list match can be secured
 
 ## Uncertainties
-- I still did not verify whether BN(O) status, the adult-child route, and the required supporting documents are personally usable for this profile in practice.
-- I did not recheck UK local rent data in this hourly run, so this update should not be read as a refreshed cost comparison beyond the visa-fee correction.
-- The job pages remain directional rather than a clean apples-to-apples labour-market comparison because the UK and Canada official systems expose different kinds of vacancy snapshots.
-- This run stayed intentionally narrow and did not add a new third-country comparator.
+- I still did not verify whether BN(O) status or the adult-child route actually applies in practice for this profile.
+- I still did not verify whether the needed BN(O) residence, funds, and TB documents are personally available now.
+- The UK BN(O) fee pages are not perfectly synchronized on 2026-04-12. The official fee-table update effective 2026-04-08 appears newer than the route guide.
+- I did not verify this profile's likely Australian occupation code, skills-assessment path, English-score position, or likely subclass-189 points score.
+- The Australia comparison is still narrow. I checked pathway structure and official shortage signals, not local housing-cost or city-by-city job-volume detail.
 
 ## Suggested Next Step
-- Use the next run to verify one blocker only: whether BN(O)-route personal eligibility can actually be evidenced with the available status and residence documents. If that cannot be confirmed, Canada remains the strongest concrete pathway in the current shortlist.
+- Use the next run to verify one blocker only: whether this profile can genuinely evidence UK BN(O) eligibility and the required residence-support documents now. If not, Canada remains the strongest concrete route in this shortlist and Australia stays only a weak backup unless a real employer-sponsored occupation match appears.
