@@ -1,50 +1,49 @@
 # global-pathway-fit-scan update
 
-- checked-on: 2026-04-12T030003Z
+- checked-on: 2026-04-12T040003Z
 - task-id: global-pathway-fit-scan
 - status: completed
 
 ## Sources Checked
+- UK Home Office, Hong Kong British National (Overseas) visa: https://www.gov.uk/british-national-overseas-bno-visa
+- UK Home Office, Skilled Worker visa: https://www.gov.uk/skilled-worker-visa
 - Canada IRCC, Canadian Experience Class: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html
-- Canada IRCC, Express Entry category-based selection: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations/category-based-selection.html
-- New Zealand Immigration, Skilled Migrant Category Resident Visa: https://www.immigration.govt.nz/visas/skilled-migrant-category-resident-visa/
-- New Zealand Immigration, Accredited Employer Work Visa: https://www.immigration.govt.nz/visas/accredited-employer-work-visa/
-- New Zealand Immigration news, further SMC changes effective August 2026: https://www.immigration.govt.nz/about-us/news-centre/further-changes-to-the-skilled-migrant-category-to-come-into-effect-in-august-2026/
 - Germany Make it in Germany, EU Blue Card: https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card
-- Germany Make it in Germany, Skilled Immigration Act overview: https://www.make-it-in-germany.com/en/visa/kinds-of-visa/work/skilled-immigration-act/
+- Germany Make it in Germany, IT professionals with practical knowledge: https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/admission-labour-market/it-professionals
 - Workspace baseline note, personal profile: [[oversea-pr-research/01-core/01-personal-profile]]
 
 ## What Changed
-- Countries reviewed this run: Canada, New Zealand, Germany.
-- No major pro-applicant global shift was found that clearly beats the current Canada option for this profile on friction, employability, and residence-path clarity.
-- New Zealand has a meaningful official update: further Skilled Migrant Category changes are scheduled for August 2026, including new trades and technician pathways and red/amber list settings. For this profile, that still does not create a low-friction immediate route because the current SMC path still requires a skilled New Zealand job or job offer from an accredited employer plus 6 skilled resident points, and the AEWV still starts with an accredited-employer job offer.
-- Germany remains a concrete official route only if a real job offer is secured. The 2026 EU Blue Card salary thresholds are now shown on the official site, including EUR 45,934.20 for shortage occupations and qualifying IT cases and EUR 50,700 for regular occupations. This is clearer than a generic "Europe option," but it is still employer-led.
-- Canada still looks the most concrete in practice because the current profile already has a valid OWP. The main official PR route remains Canadian skilled work leading to Express Entry eligibility, especially CEC, with category-based selection still relevant if the eventual occupation matches an active category.
+- This run corrected the shortlist by checking the United Kingdom explicitly, because the profile note shows both an HKSAR passport and a BNO passport.
+- The UK BN(O) route is now the clearest non-Canada pathway found so far for this profile because it is not job-offer-led at entry. Officially, the route is for a BN(O) citizen aged 18 or over, ordinarily living in Hong Kong or the UK, with proof of funds unless exempt, and it can lead to settlement after 5 years.
+- This materially changes the global comparison: the UK is no longer just a generic skilled-worker market check. It is a distinct residence route tied to passport status, which makes it more concrete than Germany or New Zealand for initial entry.
+- Canada still remains the strongest practical option for low-friction near-term entry because the profile already has a valid Canada OWP until 2029-01-27, but the UK now looks like the strongest backup pathway if Canada job landing remains too weak or too chaotic.
+- Germany still looks employer-led rather than access-led. The official routes checked remain viable mainly after securing a qualifying job offer, either through the EU Blue Card or, for some IT cases, through Germany's IT professional route based on practical experience and salary thresholds.
 
 ## What Did Not Change
-- Canada CEC still requires qualifying Canadian skilled work experience while authorized to work, plus language results. The OWP remains an employability advantage, not a PR guarantee by itself.
-- New Zealand still does not look like a realistic no-offer pathway for this profile. The main routes checked this run remain employer-linked first, residence second.
-- Germany still does not look like a low-chaos move without a job offer. Even where the rules are more open than before, the route is still built around getting hired first.
-- The strongest global pathways still look occupation-led and employer-led, not country-led. Without a job offer, language score, or stronger local market signal, most alternatives remain speculative.
+- Canada still requires actual skilled Canadian work experience plus language results for the clearest PR route through CEC. The OWP is still an access advantage, not a PR outcome by itself.
+- The UK Skilled Worker route is still employer-sponsored and does not become attractive just because the UK exists as an option. For this profile, BN(O) is the relevant UK route, not Skilled Worker as the main entry plan.
+- Germany still does not look like a low-chaos option without a real job offer and enough salary leverage.
+- No official source checked in this run showed a new global pathway that is clearly easier than Canada OWP access or UK BN(O) access for this specific profile.
 
 ## Relevance To My Situation
-- Canada is still the strongest practical fit because I already hold work authorization there, which removes the first visa barrier and lowers immediate migration friction compared with New Zealand and Germany.
-- Canada is still not automatically safe or easy for me. The real bottlenecks remain job landing, spoken-English performance, budget protection, and mental-health sustainability after arrival.
-- New Zealand looks weaker for this profile right now because both the temporary and residence routes checked this run still depend on securing an accredited-employer role first, and there is no current network or employer lead there.
-- Germany is only a possible backup, not a strong near-term plan. My degree and software or application-support background could fit some German skilled routes, but the job-offer requirement, salary threshold, and likely adaptation burden keep it in the weak-to-speculative range.
+- The biggest practical global advantage in this profile is now clearer: I already have two concrete access routes that many applicants do not have, Canada OWP and UK BN(O). That matters more than generic skilled-migration marketing pages.
+- Canada remains stronger if the goal is fastest low-friction entry into a familiar English-speaking environment where work authorization is already secured. The main risk is still employability after arrival, especially spoken English, weak network, limited deployable budget, and mental-health sustainability.
+- The UK BN(O) route may be more structurally forgiving than Germany because it removes the first employer-sponsorship barrier. That could make it a more sustainable backup if I need a route where I can enter first and job-search after landing, assuming housing and cost pressure are still manageable.
+- Germany remains a possible but weaker backup for software or application-support work because the route is more concrete only after being hired.
 - Provisional fit levels for this run:
 - Canada + Canadian Experience Class pathway stack: more concrete
-- Germany + EU Blue Card: possible but weak
-- New Zealand + Skilled Migrant Category Resident Visa: mostly speculative
+- United Kingdom + BN(O) visa route: more concrete
+- Germany + EU Blue Card or IT professional route: possible but weak
 
 ## Uncertainties
-- I still do not have a current official language-test result, so Canada Express Entry competitiveness remains unverified.
-- I have not checked this run whether my likely target occupations line up cleanly with current Canada STEM category codes, New Zealand green-list roles, or German shortage-role hiring demand.
-- Germany may also be materially harder in practice if German-language ability becomes necessary for realistic hiring, even where the formal visa route does not strictly require it.
-- New Zealand's August 2026 SMC changes may matter more for trades and technician profiles than for this current software or support profile, but the exact occupation fit needs a separate pass.
+- I have not checked this run whether the UK BN(O) route is emotionally or financially sustainable in practice given current rent, job competition, and support-network weakness.
+- I have not checked whether the profile still fully meets every BN(O) document requirement right now, including passport validity and funds evidence.
+- I still do not have a current English test result, so Canada PR competitiveness remains unverified even though Canada entry access is strong.
+- I have not checked whether UK job-market fit for application support, IT support, QA, or junior development is materially better or worse than Canada for this profile.
+- Germany may still be harder in practice than it looks on paper if language and employer preference sharply reduce realistic hiring odds.
 
 ## Suggested Next Step
-- On the next global scan, do one occupation-slice check only: compare application support, IT support, and QA against official shortage or skilled-route occupation lists in Canada, New Zealand, and Germany instead of rechecking whole-country pathway pages.
+- On the next global scan, do a narrow Canada vs UK comparison only: compare practical employability, entry cost, early survival pressure, and work-to-settlement realism for this profile instead of checking more countries again.
 - Best current global fit: Canada + Canadian Experience Class
+- Best current global fit: United Kingdom + Hong Kong British National (Overseas) visa
 - Best current global fit: Germany + EU Blue Card
-- Best current global fit: New Zealand + Skilled Migrant Category Resident Visa
