@@ -1,6 +1,6 @@
 # markdown-resume-revision update
 
-- checked-on: 2026-04-12T090003Z
+- checked-on: 2026-04-12T100003Z
 - task-id: markdown-resume-revision
 - status: completed
 
@@ -27,29 +27,27 @@
 - `oversea-pr-research/04-job-paths/operations-support.md`
 
 ## What Changed
-- This run gives a clearer evidence-based ranking for the base resume angle: application support first, operations-support-adjacent second, IT-support-adjacent third, with QA and junior developer still weaker as the default lead story.
-- Rechecking `resume-reference-copy.md` against the role drafts confirms that the strongest supported identity is not `Software Engineer` by itself and not `IT Support Professional`; it is a candidate who builds and supports enterprise applications across frontend, backend, API, database, and delivery-support work.
-- The safest summary direction is now clearer: emphasize enterprise application delivery, troubleshooting, API and database work, documentation, and stakeholder collaboration; do not lead with relocation or work authorization, and do not force a developer-first headline.
-- The source material supports stronger bullet framing around case-management workflows, insurance application delivery, API integration, reliability support, SQL and data work, technical documentation, and requirements translation.
-- This run also confirms a practical cut list for the next rewrite: remove or heavily de-emphasize broad frontend-mobile stack noise when it does not help the support-and-delivery story, and avoid unsupported support-tool or infrastructure claims from the role-specific drafts.
+- No major strategy change from the earlier same-day run. This check confirms the previous direction still holds after re-reading the source resume and related workspace notes.
+- The source copy gives a clearer keep list for the next markdown rewrite: enterprise case-management work, insurance application delivery, API integration, SQL and database work, Azure AD and Microsoft Graph integration, structured debugging, technical documentation, and requirements translation.
+- The source copy also gives a clearer cut or de-emphasis list for the base Canada resume: overly broad frontend-mobile stack detail, duplicate RBAC wording, vague claims like `Built databases and table structures for APIs`, and relocation or work-permit language in the top section.
+- The strongest evidence-backed base story remains `enterprise application delivery and support`, not pure software developer, pure IT support, or pure QA.
 
 ## What Did Not Change
-- The default markdown reference copy still remains the safest source of truth for rewriting.
-- The reference copy still has the same main problems: broad summary, oversized skills section, one inconsistent tense bullet, duplicate RBAC coverage, and several responsibility-style bullets with weak outcomes.
-- The role-specific drafts still should not be treated as source truth because they add weakly supported or unsupported items.
-- No evidence in this run justifies a pure IT support, pure QA, or junior-developer-first resume as the main Canada version.
-- No stable notes, roadmap items, tracker items, dashboard notes, or source resume files were modified.
+- `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` remains the safest source of truth for the next rewrite pass.
+- The target-role strategy still supports application support first, operations-support-adjacent second, and IT-support-adjacent third as the most practical emphasis already tracked in this workspace.
+- The role-specific draft resumes still contain unsupported or weakly supported claims and should not be treated as authoritative source material.
+- No new evidence supports leading the base Canada resume with junior developer, pure IT support, or QA tester positioning.
+- No stable notes, roadmap items, tracker items, dashboard notes, or source resume files were modified in this run.
 
 ## Relevance To My Situation
-- This update keeps the resume aligned with the workspace strategy to target the most realistic Canada job families already tracked instead of forcing the most competitive title.
-- A base resume centered on enterprise application delivery and support should translate better across application support, operations support, and some IT-support-adjacent postings than a narrower developer-only pitch.
-- Keeping the resume grounded in the source copy matters because unsupported tool names, end-user support claims, or infrastructure ownership would weaken credibility in Canada-style applications.
+- This keeps the resume aligned with the more realistic job families already tracked in the workspace instead of forcing the most competitive title.
+- A Canada-style base resume should read as a practical enterprise applications candidate who can build, troubleshoot, document, and support business systems across frontend, backend, API, and database layers.
+- Keeping the story evidence-only matters because unsupported support-tool, infrastructure, or scale claims would weaken credibility when applying into support-heavy or delivery-heavy roles.
 
 ## Uncertainties
-- The first live application family is still not chosen, so final summary wording, skill ordering, and the top bullet selection remain provisional.
-- The workspace still does not confirm enough detail to safely claim Tier 2 or Tier 3 support ownership, ticket queue handling, end-user training, incident volume, measurable reliability gains, or quantified delivery outcomes.
-- The following draft claims still appear weakly supported or unsupported by the reference copy and should stay out of the base rewrite unless separately verified: `JIRA`, `ServiceNow`, `Azure DevOps`, `Windows Server`, `DNS`, `DHCP`, `VPN basics`, explicit `Tier 2/3` framing, quantified resolution rates, end-user training claims, and thousands-of-users scale claims.
-- `FastAPI`, `Azure Functions`, and Canada work-authorization wording appear in draft resume files but are not clearly grounded in the default markdown reference copy, so they should be handled cautiously in the next rewrite.
+- The first real application family is still not chosen, so the final summary wording and bullet order should stay provisional.
+- The workspace still does not verify enough detail to claim ticket ownership, end-user training, Tier 2 or Tier 3 support framing, quantified incident impact, measurable delivery improvements, or large-user-scale support.
+- The following items still appear weakly supported or unsupported by the reference copy and should stay out of the base rewrite unless separately verified: `JIRA`, `ServiceNow`, `Azure DevOps`, `Windows Server`, `DNS`, `DHCP`, `VPN basics`, `FastAPI`, `Azure Functions`, explicit `Tier 2/3` wording, quantified resolution rates, end-user training claims, and thousands-of-users scale claims.
 
 ## Suggested Next Step
-- Draft one evidence-only base markdown resume from `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` with an enterprise application delivery and support angle, then keep tailoring limited to summary, skills ordering, and top bullets until the first target application family is chosen.
+- Draft one evidence-only base markdown resume from `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` using this structure: short enterprise-application-delivery summary, tighter role-aligned skills groups, stronger top 4 to 6 bullets per role, and removal of unsupported or weak wording before any role-specific tailoring.
