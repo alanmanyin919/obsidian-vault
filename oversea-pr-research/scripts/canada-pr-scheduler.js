@@ -694,7 +694,10 @@ function main() {
       if (result.stderr) {
         console.error(result.stderr.trim());
       }
-    } else if (!args.dryRun && result.action === "codex-ran") {
+    } else if (
+      !args.dryRun &&
+      (result.action === "codex-created-new" || result.action === "codex-updated-existing")
+    ) {
       successfulFiles.push(result.targetFile);
     }
   }

@@ -23,6 +23,6 @@ mkdir -p "$LOG_DIR"
     "$GH_BIN" auth setup-git >/dev/null
     git -C "$VAULT_ROOT" pull --ff-only "$GIT_REMOTE" "$GIT_BRANCH"
   fi
-  "$NODE_BIN" "$SCRIPT_PATH"
+  "$NODE_BIN" "$SCRIPT_PATH" "$@"
   echo "[$(date -u +'%Y-%m-%dT%H:%M:%SZ')] completed oversea-pr scheduler"
 } >> "$LOG_FILE" 2>&1
