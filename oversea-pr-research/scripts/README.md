@@ -79,7 +79,7 @@ node oversea-pr-research/scripts/canada-pr-scheduler.js \
   - Pass full-permission bypass through to `codex`.
 
 - `--auto-commit-and-push`
-  - After successful task runs, stage only the generated output files, commit them, and push them.
+  - After successful task runs, stage only the generated output files, commit them with a Conventional Commits message, and push them.
 
 - `--git-branch <branch>`
   - Override the branch used for push.

@@ -11,6 +11,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 - Save output into draft-oriented notes first.
 - Do not update stable notes, roadmap status, or the progress tracker without explicit approval.
 - If no meaningful change is found, still record a dated check result.
+- If a run prepares a commit message or uses auto-commit, use Conventional Commits format: `type(scope): subject`.
 
 ## Output Conventions
 - Default output root: `oversea-pr-research/90-research-updates`
@@ -160,6 +161,7 @@ This note defines recurring research tasks that an agent can check on a schedule
   - Use official pages as the source of truth for eligibility details.
   - Do not omit the United Kingdom if British nationality, BNO status, or passport-based eligibility could materially affect the analysis.
   - Keep scheduled outputs in this folder only. Do not write directly into stable planning notes.
+  - If a follow-up commit is created from this run, use Conventional Commits format.
 
 ### Task: markdown-resume-revision
 - status: active

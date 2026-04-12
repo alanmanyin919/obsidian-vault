@@ -610,7 +610,7 @@ function commitAndPushFiles(files, runDate, args) {
   }
 
   const branch = args.gitBranch || getCurrentBranch();
-  const commitMessage = `Update Canada PR scheduled research ${formatTimestamp(runDate)}`;
+  const commitMessage = `chore(oversea-pr-research): update scheduled research ${formatTimestamp(runDate)}`;
   const commitResult = runCommand("git", ["commit", "-m", commitMessage, "--", ...uniqueFiles]);
   if (commitResult.code !== 0) {
     throw new Error(commitResult.stderr.trim() || commitResult.stdout.trim() || "git commit failed.");
