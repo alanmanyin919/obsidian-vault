@@ -1,47 +1,39 @@
 # global-pathway-fit-scan update
 
-- checked-on: 2026-04-13T000004Z
+- checked-on: 2026-04-13T010004Z
 - task-id: global-pathway-fit-scan
 - status: completed
 
 ## Sources Checked
-- Previous running note for this task: /app/obsidian-vault/oversea-pr-research/90-research-updates/global-pathway-updates/2026-04-12T030003Z-global-pathway-fit-scan.md
+- Previous running note for this task: `/app/obsidian-vault/oversea-pr-research/90-research-updates/global-pathway-updates/2026-04-13T000004Z-global-pathway-fit-scan.md`
 - IRCC, Canadian Experience Class eligibility: https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html
-- GOV.UK, British National (Overseas) visa overview: https://www.gov.uk/british-national-overseas-bno-visa
-- GOV.UK, British National (Overseas) visa documents: https://www.gov.uk/british-national-overseas-bno-visa/documents-youll-need-to-apply
-- GOV.UK, British National (Overseas) visa costs: https://www.gov.uk/british-national-overseas-bno-visa/how-much-it-costs
-- GOV.UK, British National (Overseas) visa settlement: https://www.gov.uk/british-national-overseas-bno-visa/settle-in-the-uk
-- GOV.UK, Home Office immigration and nationality fees, 8 April 2026: https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-april-2026
-- Australia Department of Home Affairs, SkillSelect expression of interest: https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/expression-of-interest
-- Australia Department of Home Affairs, temporary work visas: https://immi.homeaffairs.gov.au/visas/working-in-australia/temporary-work-visas
-- Australia Department of Home Affairs, skilled occupation list: https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list
-- Australia Department of Home Affairs, Core Skills Occupation List PDF: https://immi.homeaffairs.gov.au/Documents/core-sol.pdf
+- GOV.UK, BN(O) visa overview: https://www.gov.uk/british-national-overseas-bno-visa
+- GOV.UK, BN(O) visa family members: https://www.gov.uk/british-national-overseas-bno-visa/your-family-members
+- GOV.UK, BN(O) visa documents: https://www.gov.uk/british-national-overseas-bno-visa/documents-youll-need-to-apply
+- GOV.UK, Immigration Rules Appendix Hong Kong British National (Overseas), updated 2026-04-08: https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-hong-kong-british-national-overseas
 
 ## What Changed
-- The prior UK BN(O) fee-page mismatch appears resolved on this run. The GOV.UK BN(O) cost page now shows GBP 285 for a 5-year application and GBP 5,175 adult IHS for 5 years, which now matches the Home Office fee table effective 2026-04-08.
-- No material rule change was found for Canada CEC. IRCC still requires at least 1 year or 1,560 hours of paid TEER 0 to 3 work in Canada within the last 3 years, gained while authorized to work, and remote work only counts if the person was physically in Canada while working for a Canadian employer.
-- No material rule change was found for UK BN(O) eligibility. The route still covers either a BNO applicant or an adult child of a BNO born on or after 1979-07-01, still requires the permanent-home condition, and still requires evidence of address, funds, relationship, and TB testing where applicable.
-- No material rule change was found for Australia in this narrow comparison. The practical lanes checked still point to either employer-sponsored `Skills in Demand visa (subclass 482)` or invitation-based skilled visas after an EOI, skills assessment, English evidence, and enough points.
+- This run found a material UK BN(O) clarification and inconsistency. The current Immigration Rules Appendix Hong Kong British National (Overseas), updated 2026-04-08, says the BN(O) Adult Child route is for someone aged 18 or over and born on or after 1979-07-01.
+- That is broader than the earlier assumption in the prior note and broader than some older or simpler GOV.UK BN(O) guidance pages that have historically referred to later cutoff wording. This means the UK route may be more plausible than the prior note assumed if the relevant family relationship really exists.
+- The rules page also makes the structure clearer: the BN(O) Adult Child route allows work and study and is a route to settlement, while some family-member cases still have same-household or same-time application conditions depending on which relationship is being used.
+- No material Canada-side rule change was found in this run. CEC still depends on qualifying paid TEER 0 to 3 work in Canada, gained while authorized to work, with remote work only counting if the person was physically in Canada while working for a Canadian employer.
 
 ## What Did Not Change
-- Canada still looks strongest only if existing Canadian work rights are real and can be converted into qualifying paid TEER 0 to 3 work in Canada soon enough for a CEC path.
-- The UK BN(O) route still remains structurally strong if eligibility is real because it still allows work and study and still leads to settlement after 5 continuous years, subject to the residence rules.
-- Australia still looks weaker than Canada or a genuine BN(O) route for this profile in this narrow run because it remains more sponsor-dependent or invitation-dependent.
-- Australia still does not look like a clean admin-support fallback from the official occupation-list side. The checked CSOL still includes `ICT Customer Support Officer` and `ICT Support Technicians nec`, but this does not by itself make Australia a concrete path for a general office-support profile.
+- Canada still looks like the most concrete pathway only if real Canadian work authorization exists and can be converted into qualifying Canadian skilled work fast enough to support a CEC path.
+- The UK BN(O) route still depends on actual nationality or qualifying family-link facts, not just the existence of the route itself.
+- Australia was not expanded in this run. It remains outside the main shortlist for now because this run was used to recheck the UK blocker and confirm Canada had not materially changed.
 
 ## Relevance To My Situation
-- This run mostly confirms the previous shortlist rather than changing it.
-- The main practical improvement is that the UK BN(O) cost signal is clearer now. That reduces one source of confusion, but it does not solve the harder blocker of whether BN(O) eligibility and document evidence actually exist for this profile.
-- Canada still remains the most concrete work-to-PR logic in this shortlist if Canadian work authorization is already usable in practice.
+- The main new signal is that the UK BN(O) adult-child option may be broader than previously assumed. If there is a real BN(O) parent or qualifying BN(O)-linked family relationship, the UK deserves renewed attention as a potentially concrete work-to-settlement route rather than just a speculative backup.
+- This does not automatically move the UK ahead of Canada. Canada still has the cleaner practical logic if existing Canadian work rights are real and usable soon.
 - Best current global fit: Canada + Canadian Experience Class
-- Best current global fit: United Kingdom + British National (Overseas) visa
-- Best current global fit: Australia + Skills in Demand visa (subclass 482) only if a real sponsor and occupation match appear
+- Best current global fit: United Kingdom + British National (Overseas) visa, if BN(O) eligibility can actually be evidenced
 
 ## Uncertainties
-- I still did not verify whether BN(O) status or the adult-child route actually applies to this profile.
-- I still did not verify whether the required BN(O) permanent-home, funds, relationship, and TB documents can be produced now.
-- I still did not verify this profile's likely Australian occupation code, skills-assessment path, or likely invitation competitiveness for subclasses 189, 190, or 491.
-- I did not expand this run into housing-cost, salary, or city-level employability research. This was a narrow official-rule recheck only.
+- GOV.UK BN(O) sources are not perfectly aligned. The Immigration Rules page updated on 2026-04-08 says the BN(O) Adult Child route uses a 1979-07-01 birth-date cutoff, while some simpler GOV.UK guidance pages may still reflect older or less precise wording. The rules page should be treated as the stronger source, but this inconsistency should be handled carefully.
+- This run still did not verify whether this profile actually has BN(O) status, a BN(O) parent, or another qualifying relationship that fits the current rules.
+- This run still did not verify whether the needed evidence can be produced now, such as birth certificates, relationship records, proof of ordinary residence where relevant, funds, and TB documentation where required.
+- I did not do a fresh employability, salary, or housing check in this run. This was a narrow official-rules recheck.
 
 ## Suggested Next Step
-- Use the next run to verify one blocker only: whether this profile can genuinely evidence UK BN(O) eligibility and the required supporting documents. If that cannot be shown, Canada stays the strongest concrete option in this shortlist and Australia remains only a weak backup unless a real employer-sponsored match appears.
+- Use the next run to verify one point only: whether this profile has a real BN(O)-linked eligibility path under the current rules and what exact documents would be needed to prove it. If that cannot be shown quickly, keep Canada as the strongest concrete option and treat the UK as interesting but still unproven.
