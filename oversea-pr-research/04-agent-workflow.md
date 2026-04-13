@@ -23,8 +23,8 @@ This note defines how a scheduled agent should run recurring Canada PR research 
 3. Skip any task with `status: paused`.
 4. For each due task, check official sources first.
 5. If official sources are unclear, optionally use secondary sources only as support, not as final authority.
-6. Create one markdown output note per task.
-7. Save each result into the task's configured output folder.
+6. Create one new markdown snapshot note per task run.
+7. Save each result into the task's configured output folder without overwriting prior run snapshots.
 8. If no meaningful update is found, still save a dated no-change check.
 
 ## Output Template
@@ -63,7 +63,7 @@ Use this structure for every scheduled task result.
   - `oversea-pr-research/90-research-updates/official-updates`
   - `oversea-pr-research/90-research-updates/province-updates`
 - Suggested filename format:
-  - `YYYY-MM-DD-task-id.md`
+  - `YYYY-MM-DDTHHMMSSZ-task-id.md`
 
 ## Escalation Rules
 - If a task result suggests a major planning change, flag it clearly as review-needed.

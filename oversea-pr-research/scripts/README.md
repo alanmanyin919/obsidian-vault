@@ -65,6 +65,7 @@ node oversea-pr-research/scripts/canada-pr-scheduler.js \
 
 - `--dry-run`
   - Show which tasks would run and print the generated Codex prompt.
+  - Each due task is treated as a new timestamped snapshot file.
 
 - `--task <task-id>`
   - Run only one configured task.
@@ -138,6 +139,12 @@ The wrapper script writes logs here:
 ```text
 /home/ubuntu/obsidian-vault/oversea-pr-research/logs/canada-pr-scheduler.log
 ```
+
+## Snapshot Behavior
+
+- Each scheduler run creates a new timestamped markdown snapshot for each due task.
+- Before researching, the scheduler still reads the latest existing note for that task when one exists.
+- Previous snapshots are kept as historical records and are not overwritten.
 
 ## Ubuntu Notes
 
