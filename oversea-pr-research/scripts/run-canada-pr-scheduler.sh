@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-VAULT_ROOT="/home/ubuntu/obsidian-vault"
-RESEARCH_ROOT="$VAULT_ROOT/oversea-pr-research"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+RESEARCH_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+VAULT_ROOT="$(cd "$RESEARCH_ROOT/.." && pwd)"
 SCRIPT_PATH="$RESEARCH_ROOT/scripts/canada-pr-scheduler.js"
 LOG_DIR="$RESEARCH_ROOT/logs"
 LOG_FILE="$LOG_DIR/canada-pr-scheduler.log"
