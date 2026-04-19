@@ -36,6 +36,8 @@
 - Prefer practical findings that help decisions, applications, or execution.
 - Surface uncertainty clearly.
 - Keep recommendations grounded in the user's actual profile, constraints, and energy level.
+- When a comparison, recommendation, or decision depends on personal background, constraints, preferences, or risk factors, reference `01-core/00-personal-profile.md` as the baseline source.
+- When the user asks to add a posting into `04-job-application-bank`, follow `04-job-application-bank/00-job-post-folder-rules.md` as the default structure and file-format reference.
 
 ## Vault Update Rules
 - Save raw or pending output into draft-oriented notes only if useful.

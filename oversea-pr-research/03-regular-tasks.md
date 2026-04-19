@@ -173,14 +173,14 @@ This note defines recurring research tasks that an agent can check on a schedule
 - priority: high
 - source-tier: workspace-first
 - sources:
-  - `oversea-pr-research/01-core/01-documents/resume-reference-copy.md`
+  - `oversea-pr-research/01-core/01-documents/resume-reference-owp.md`
   - Existing resume source files in the workspace
   - Resume investigation and revision notes already stored in this workspace
   - Target role strategy notes already stored in this workspace
 - objective:
-  - Produce a better draft resume in markdown format first, using `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` as the working base and the current target role strategy as guidance
+  - Produce a better draft resume in markdown format first, using `oversea-pr-research/01-core/01-documents/resume-reference-owp.md` as the working base and the current target role strategy as guidance
 - scope:
-  - Start from `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` as the primary markdown source
+  - Start from `oversea-pr-research/01-core/01-documents/resume-reference-owp.md` as the primary markdown source
   - Work from the existing resume source and revision notes in this workspace before introducing any new assumptions
   - Focus on rewriting and organizing the resume in markdown, not generating a final PDF or DOCX
   - Prefer a strong base version first, then role-specific emphasis only when the existing notes clearly support it
@@ -200,7 +200,7 @@ This note defines recurring research tasks that an agent can check on a schedule
 - output-format: markdown-resume-draft
 - notes:
   - Read the latest resume-related progress note first if one exists.
-  - Treat `oversea-pr-research/01-core/01-documents/resume-reference-copy.md` as the default markdown reference copy unless the user explicitly replaces it.
+  - Treat `oversea-pr-research/01-core/01-documents/resume-reference-owp.md` as the default markdown reference copy unless the user explicitly replaces it.
   - Use markdown as the working format for revision output.
   - Do not invent metrics, achievements, or responsibilities.
   - Keep scheduled outputs in this folder only. Do not overwrite the source resume files automatically.
